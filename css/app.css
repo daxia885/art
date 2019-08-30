@@ -25,6 +25,9 @@ header {
 		height: 0;
 		padding: 0 0 0 0;
 	}
+	.owntop{
+		margin-top: 10px;
+	}
 }
 .am-topbar{
 	background-color:transparent;  /*背景为透明*/
@@ -168,8 +171,8 @@ ul.am-dropdown-content>li>a:hover {
 /*pic-box*/
 .pic-box{
 	position: relative;
-	padding-top: 40px;
-	padding-bottom: 40px;
+	/*padding-top: 40px;*/
+	/*padding-bottom: 40px;*/
 }
 .pic-box .pic{
 	position: relative;
@@ -350,7 +353,7 @@ footer .tubiao a:hover{
 	cursor: pointer;
 }
 .top:hover{
-	background-color: #ba1f2e;
+	/*background-color: #ba1f2e;*/
 }
 .wx{
 	width: 194px;height: 199px;
@@ -374,4 +377,28 @@ footer .tubiao a:hover{
 	position: relative;
 	line-height: 50px;
 	padding: 0 10px;
+}
+.ownline{
+	height:5px;
+	width: 20px;
+	background-color:#000;
+}
+.ownTitle {
+	font-weight: 700;margin-top: 0px;margin-bottom: 0;font-size: 14px;
+}
+.owntext{
+	font-weight: 500;font-size: 12px;margin-top: 0px;margin-bottom: 0;
+}
+.ownfont {
+	text-decoration:underline;cursor: pointer;
+}
+.ownpcTop {
+	margin-top: 10px;
+}
+.fontDetails{
+	font-weight: 600;
+}
+.ownPoint>.am-direction-nav>li> a{
+	position: absolute;
+	top:104%;
 }
