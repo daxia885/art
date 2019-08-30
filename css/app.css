@@ -20,6 +20,9 @@ header {
   filter: alpha(opacity=95);
   opacity: 0.95;
 }
+.am-container {
+	max-width: 1200px;
+}
 @media only screen and (max-width:640px ) {
 	header{
 		height: 0;
@@ -27,6 +30,12 @@ header {
 	}
 	.owntop{
 		margin-top: 10px;
+	}
+}
+@media only screen and (min-width:1440px) {
+	.am-container {
+		min-width: 1200px;
+		max-width: 1920px;
 	}
 }
 .am-topbar{
@@ -43,9 +52,6 @@ header {
   background: url(../img/logo@2x.png) no-repeat left center;
   -webkit-background-size: 125px 40px;
   background-size: 125px 40px;
-}
-.am-container {
-  max-width: 1200px;
 }
 .am-topbar-right{
 	line-height: 40px;
@@ -109,14 +115,14 @@ ul.am-dropdown-content>li>a:hover {
 
 /*banner start*/
 .bigbanner{
-	height: 680px;
+	height: 500px;
 	background: url(../img/shouye1.jpg) no-repeat center;
   	-webkit-background-size:cover;
   	background-size: cover;
   	color: #fff;
 }
 .bigbanner .am-container{
-	padding-top: 300px;
+	padding-top: 200px;
 } 
 .bigbanner .am-container h2{
 	font:normal 40px/50px "微软雅黑";
