@@ -182,12 +182,6 @@ ul.am-dropdown-content>li>a:hover {
 .pic-box p{
 	color: #3F434C;
 }
-.am-u-lg-4{
-	padding-right: 0px;!important
-}
-.am-u-lg-4{
-	padding-left: 0px;!important
-}
 .bg{
 	background:rgba(0,0,0,0);
 	position: absolute;top: 0;
@@ -386,7 +380,7 @@ footer p{
 	line-height: 40px;
 }
 .fonticonStyle span {
-	padding: 5px;
+	padding: 1px;
 	font-size: 20px;
 	border-radius: 3px;
 	color: #fff;
