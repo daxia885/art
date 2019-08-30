@@ -1,305 +1,452 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html class="no-js">
 	<head>
-		<meta charset="utf-8" />
-   		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-   		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
-		<title>央美术馆-首页</title>
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
-		<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
-		<link rel="stylesheet" type="text/css" href="css/style.css"/>
-		<link rel="stylesheet" type="text/css" href="css/main.css"/>
-		<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<title></title>
+
+		<!--移动优先-->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<!-- 渲染引擎 只对 360 浏览器 6.5+ 有效-->
+		<meta name="renderer" content="webkit">
+		<!-- 如果你的网站不想被剥去外衣、往赤裸的身体上贴广告，就加上下面的代码（百度会为你的网页进行转码）-->
+		<meta http-equiv="Cache-Control" content="no-siteapp" />
+		<link rel="icon" type="image/png" href="i/favicon.png">
+		<!-- Add to homescreen for Chrome on Android 添加到Android上的Chrome主屏幕（网站开启对web app程序的支持）-->
+		<meta name="mobile-web-app-capable" content="yes">
+		<link rel="icon" sizes="192x192" href="i/app-icon72x72@2x.png">
+		<!-- Add to homescreen for Safari on iOS 添加到桌面的iOS Safari  网站开启对web app程序的支持-->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="apple-mobile-web-app-title" content="Amaze UI" />
+		<link rel="apple-touch-icon-precomposed" href="i/app-icon72x72@2x.png">
+		<!-- Tile icon for Win8 (144x144 + tile color) 添加到主屏后-设置状态栏的背景颜色(win8)-->
+		<meta name="msapplication-TileImage" content="i/app-icon72x72@2x.png">
+		<meta name="msapplication-TileColor" content="#0e90d2">
+
+		<!--引用-->
+		<link rel="stylesheet" href="css/amazeui.min.css">
+		<link rel="stylesheet" href="css/app.css">
 	</head>
 	<body>
-			<!--顶部-->
-			<nav class="navbar navbar-default navbar-fixed-top">
-				  <div class="container-fluid wrap">
-				    <!-- Brand and toggle get grouped for better mobile display -->
-				    <div class="navbar-header">
-				      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-				        <span class="sr-only">Toggle navigation</span>
-				        <span class="icon-bar"></span>
-				        <span class="icon-bar"></span>
-				        <span class="icon-bar"></span>
-				      </button>
-				      <!--logo-->
-				      <a class="navbar-brand" href="index.html">
-				      	<img src="img/page.png" alt=""/>
-				      </a>
-				    </div>
-				    <!-- Collect the nav links, forms, and other content for toggling -->
-				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				      <!--<ul class="language navbar-right">
-				        <li><a href="#" class="active">中</a></li>
-				        <li>|</li>
-				        <li><a href="#">EN</a></li>
-				      </ul>-->
-				      <ul class="nav navbar-nav main-nav  navbar-right">
-				        <li class="active"><a href="index.html">参观</a></li>
-				        <li><a href="worksShow.html">展览</a></li>
-				        <li><a href="recruit.html">媒体</a></li>
-				        <li><a href="contract.html">公共项目</a></li>
-				        <li><a href="about.html">YAM Learn</a></li>
-				        <li><a href="recruit.html">支持我们</a></li>
-				        <li><a href="contract.html">关于我们</a></li>
-				        <li><a href="about.html">YAM Store</a></li>
-				        <li class="lang"><a class="active">中</a>|<a href="en_index.html">EN</a></li>
-				      </ul>
-				    </div><!-- /.navbar-collapse -->
-				  </div><!-- /.container-fluid -->
-				</nav>
-			<!-- Swiper -->
-		  	<div class="swiper-container">
-			    <div class="swiper-wrapper">
-			      <div class="swiper-slide" style="background-image:url(img/01shouye1.png)"></div>
-			      <div class="swiper-slide" style="background-image:url(img/01shouye2.png)"></div>
-			      <div class="swiper-slide" style="background-image:url(img/01shouye3.png)"></div>
-			      <div class="swiper-slide" style="background-image:url(img/01shouye4.png)"></div>
-			      <div class="swiper-slide" style="background-image:url(img/01shouye5.png)"></div>
-			      <div class="swiper-slide" style="background-image:url(img/01shouye6.png)"></div>
-			    </div>
-			    <!-- Add Pagination -->
-			    <div class="swiper-pagination swiper-pagination-white"></div>
-			    <!-- Add Arrows -->
-			    <div class="swiper-button-next swiper-button-white"></div>
-			    <div class="swiper-button-prev swiper-button-white"></div>
-		  	</div>
-			<!--多图轮播-->
-			<div class="activity">
-				<ul>
-					<li>
-						<img _src="img/current.png" src="img/current.png" />
-						<div class="img-right">
-							<div class="text-line"></div>
-							<div class="img-text">Current<br>当前展览</div>
-							<div class="img-text">另一种风景<br>策展人：JérémieThircuir</div>
-							<div>2016.5.31 - 2016.7.27</div>
-						</div>
-						<div class="img-bottom">view details</div>
-					</li>
-					<li>
-						<img _src="img/upcoming.png" src="img/upcoming.png" />
-						<div class="img-right">
-							<div class="text-line"></div>
-							<div class="img-text">Upcoming<br>展览预告</div>
-							<div class="img-text">“我们的绘画”<br>策展人：孙冬冬</div>
-							<div>2016.11.12 - 2016.2.12</div>
-						</div>
-						<div class="img-bottom">view details</div>
-					</li>
-					<li>
-						<img _src="img/event.png" src="img/event.png" />
-						<div class="img-right">
-							<div class="text-line"></div>
-							<div class="img-text">Event<br>Application<br>活动申办</div>
-						</div>
-						<div class="img-bottom">view details</div>
-					</li>
-				</ul>
-			</div>
-			<div class="long_line"></div>
-			<!--关于我们-->
-			<div class="aboutUs">
-				<div class="wrap">
-					<div class="title wow bounceInUp">关于我们办不办</div>
-					<div class="text wow slideInDown">
-						<span class="ccf0f32">广州袁动动漫设计有限公司（YD ART），致力于CG美术概念设计及三维影视游戏视觉开发制作</span>
-						<span>其团队现由创办人袁杰联合著名CG艺术家肖壮悦以及XRCGTEAM（<a href="http://www.xrcgteam.com">http://www.xrcgteam.com</a>）成员和各游戏、影视、动漫业内资深艺术家所组成，</span>
-						<span>为国内外众多项目提供优质概念设计、原画设定、美宣插画、次世代3D、GUI、动作特效等外包服务。</span>
-						<span>曾参与《星际争霸》《上古卷轴》《英雄联盟》《战神》《三国无双》《梦幻西游》《LOC》《鬼吹灯》《长城》等国内外大型游戏影视项目视觉美术开发制作</span>
-					</div>
-					<div class="row">
-					  <div class="col-xs-6 col-sm-3">
-					  	<div class="">
-						  	<h3 class="timer count-title" id="count-number" data-to="150" data-speed="1500"></h3>员工
-					  	</div>
-					  </div>
-					  <div class="col-xs-6 col-sm-3">
-					  	<div class="">
-						  	<h3 class="timer count-title" id="count-number" data-to="100" data-speed="1500"></h3>客户
-					  	</div>
-					  </div>
-					  <div class="col-xs-6 col-sm-3">
-					  	<div class="">
-						  	<h3 class="timer count-title" id="count-number" data-to="200" data-speed="1500"></h3>项目
-					  	</div>
-					  </div>
-					  <div class="col-xs-6 col-sm-3">
-					  	<div class="">
-						  	<h3 class="timer count-title" id="count-number" data-to="6" data-speed="1500"></h3>周年
-					  	</div>
-					  </div>
-					</div>
-				</div>
-			</div>
-			<!--他们信任我们-->
-			<div class="believe">
-				<div class="wrap">
-					<div class="title wow bounceInUp">他们信任我们</div>
-					<div class="partnerList">
-					<ul>
-						<a href="###">
+		<header>
+			<!--导航-->
+			<div class="am-topbar am-show-md-up" style="border-bottom: 2px solid #0d121b" data-am-sticky>
+				<div class="am-container">
+					<h1 class="am-topbar-brand " style="border-right: 2px solid #0d121b">
+					    <a href="#" class=""></a><!--am-text-ir-->
+					</h1>
+					<div class="am-topbar-left">
+						<ul class="am-nav am-nav-pills ownlinght">
 							<li>
-								<img src="img/about_01.jpg"/>
+								<a href="index.html">参观</a>
 							</li>
-						</a>
-						<a href="###">
-							<li>
-								<img src="img/about_02.jpg"/>
-							</li>
-						</a>
-						<a href="###">
-							<li>
-								<img src="img/about_03.jpg"/>
-							</li>
-						</a>
-						<a href="###">
-							<li>
-								<img src="img/about_04.jpg"/>
-							</li>
-						</a>
-						<a href="###">
-							<li>
-								<img src="img/about_05.jpg"/>
-							</li>
-						</a>
-						<a href="###">
-							<li>
-								<img src="img/about_06.jpg"/>
-							</li>
-						</a>
-						<a href="###">
-							<li>
-								<img src="img/about_07.jpg"/>
-							</li>
-						</a>
-						<a href="###">
-							<li>
-								<img src="img/about_08.jpg"/>
-							</li>
-						</a>
-						<a href="###">
-							<li>
-								<img src="img/about_09.jpg"/>
-							</li>
-						</a>
-						<a href="###">
-							<li>
-								<img src="img/about_10.jpg"/>
-							</li>
-						</a>
-					</ul>
-				</div>
-				</div>
-			</div>
-			<!--我们做什么-->
-			<div class="wedo">
-				<div class="wrap">
-					<div class="title wow bounceInUp">我们做什么</div>
-					<div class="text wow slideInDown">
-						<span class="ccf0f32 f18">ACG领域视觉美术外包方案解决专家</span>
-						<span>我们提供2D、3D、次世代游戏美术全流程外包服务，包括美术风格预研、整包定制、美术咨询等服务</span>
-					</div>
-					<div class="row dolist">
-					  <a href="###">
-					  	<div class="col-xs-6 col-sm-4 col-md-2 wow bounceInLeft" data-wow-delay="1.5s">
-					  		<img src="img/doimg_1.png"/>手游
-					  	</div>
-					  </a>
-					  <a href="###">
-					  	<div class="col-xs-6 col-sm-4 col-md-2 wow bounceInLeft " data-wow-delay="1s">
-					  		<img src="img/doimg_2.png"/>页游
-					  	</div>
-					  </a>
-					  <a href="###">
-					  	<div class="col-xs-6 col-sm-4 col-md-2 wow bounceInLeft " data-wow-delay="0.5s">
-					  		<img src="img/doimg_3.png"/>端游
-					  	</div>
-					  </a>
-					  <a href="###">
-					  	<div class="col-xs-6 col-sm-4 col-md-2 wow bounceInRight " data-wow-delay="0.5s">
-					  		<img src="img/doimg_4.png"/>次世代
-					  	</div>
-					  </a>
-					  <a href="###">
-					  	<div class="col-xs-6 col-sm-4 col-md-2 wow bounceInRight " data-wow-delay="1s">
-					  		<img src="img/doimg_5.png"/>单机
-					  	</div>
-					  </a>
-					  <a href="###">
-					  	<div class="col-xs-6 col-sm-4 col-md-2 wow bounceInRight " data-wow-delay="1.5s">
-					  		<img src="img/doimg_6.png"/>影视
-					  	</div>
-					  </a>
-					</div>
-					<div class="text-list wow bounceInDown">
-						<ul>
-							<li>
-								<a href="###">角色原画设计</a>
-								<a href="###">场景原画设计</a>
-								<a href="###">UI设计</a>
+							<!--下拉菜单-->
+							<li class="am-dropdown" data-am-dropdown>
+								<a class="am-dropdown-toggle" data-am-dropdown-toggle href="#">
+									展览
+								</a>
+								<ul class="am-dropdown-content">
+									<li>
+										<a href="second.html">当前展览</a>
+									</li>
+									<li>
+										<a href="#">展览预告</a>
+									</li>
+									<li>
+										<a href="#">展览回顾</a>
+									</li>
+									<li>
+										<a href="#">活动申办</a>
+									</li>
+								</ul>
 							</li>
 							<li>
-								<a href="###">肖像绘制</a>
-								<a href="###">道具绘制</a>
-								<a href="###">图标绘制</a>
+								<a href="">媒体</a>
 							</li>
 							<li>
-								<a href="###">美宣</a>
-								<a href="###">卡牌绘制</a>
-								<a href="###">2D场景整合</a>
+								<a href="">公共项目</a>
 							</li>
 							<li>
-								<a href="###">3DMAX角色模型</a>
-								<a href="###">3DMAX场景模型</a>
-								<a href="###">次世代模型、贴图</a>
+								<a href="">YAM Learn</a>
 							</li>
 							<li>
-								<a href="###">3DMAX动画</a>
-								<a href="###">3DMAX特效</a>
-								<a href="###">3转2绘制</a>
+								<a href="">支持我们</a>
+							</li>
+							<li>
+								<a href="">关于我们</a>
+							</li>
+							<li>
+								<a href="">YAM Store</a>
 							</li>
 						</ul>
 					</div>
 				</div>
 			</div>
-			<!--footer-->
-			<div class="footer">
-				<img src="img/foot_logo.png"/>
-				Copyright © 2016 XRCG. 更多模板：<a href="http://www.mycodes.net/" target="_blank">源码之家</a>
+
+			<!--菜单-->
+			<div data-am-widget="header" class="am-header  am-show-sm-only">
+				<!--<div class="am-header-right am-header-nav">
+					<a href="#right-link" class="">
+						<i class="am-header-icon am-icon-home"></i>
+						<span class="am-header-nav-title">首页</span>
+					</a>
+				</div>-->
+				<h1 class="am-header-title"></h1>
+				<div class="am-header-left am-header-nav">
+					<a href="#left-link" class="" data-am-offcanvas="{target: '#r-nav',effect: 'push'}">
+						<i class="am-header-icon am-icon-bars"></i>
+						<span class="am-header-nav-title">菜单</span>
+					</a>
+				</div>
 			</div>
+
+			<!-- 侧边栏内容 -->
+			<div id="r-nav" class="am-offcanvas">
+				<div class="am-offcanvas-bar">
+					<ul class="am-offcanvas-content am-nav ownlinght">
+						<li>
+							<a href="index.html">参观</a>
+						</li>
+						<!--下拉菜单-->
+						<li class="am-dropdown" data-am-dropdown>
+							<a class="am-dropdown-toggle" data-am-dropdown-toggle href="#">
+								展览
+							</a>
+							<ul class="am-dropdown-content">
+								<li>
+									<a href="second.html">当前展览</a>
+								</li>
+								<li>
+									<a href="#">展览预告</a>
+								</li>
+								<li>
+									<a href="#">展览回顾</a>
+								</li>
+								<li>
+									<a href="#">活动申办</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="">媒体</a>
+						</li>
+						<li>
+							<a href="">公共项目</a>
+						</li>
+						<li>
+							<a href="">YAM Learn</a>
+						</li>
+						<li>
+							<a href="">支持我们</a>
+						</li>
+						<li>
+							<a href="">关于我们</a>
+						</li>
+						<li>
+							<a href="">YAM Store</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</header>
+
+		<!--banner-->
+		<div class="doc-example">
+			<div class="am-slider am-slider-default">
+				<ul class="am-slides">
+						<li class="clone" aria-hidden="true" style="float: left; display: block; width: 682px;"><img
+								src="http://s.cn.bing.net/az/hprichbg/rb/FennecFox_ZH-CN13720911949_1366x768.jpg"
+								draggable="false"></li>
+						<li class="am-active-slide" style="float: left; display: block; width: 682px;"><img
+								src="http://cn.bing.com/az/hprichv/LondonTrainStation_GettyRR_139321755_ZH-CN742316019.jpg"
+								draggable="false"></li>
+						<li class="" style="float: left; display: block; width: 682px;"><img
+								src="http://s.cn.bing.net/az/hprichbg/rb/CardinalsBerries_ZH-CN10679090179_1366x768.jpg"
+								draggable="false"></li>
+						<li class="" style="float: left; display: block; width: 682px;"><img
+								src="http://s.cn.bing.net/az/hprichbg/rb/QingdaoJiaozhou_ZH-CN10690497202_1366x768.jpg"
+								draggable="false"></li>
+						<li class="" style="float: left; display: block; width: 682px;"><img
+								src="http://s.cn.bing.net/az/hprichbg/rb/FennecFox_ZH-CN13720911949_1366x768.jpg"
+								draggable="false"></li>
+						<li class="clone" aria-hidden="true" style="float: left; display: block; width: 682px;"><img
+								src="http://cn.bing.com/az/hprichv/LondonTrainStation_GettyRR_139321755_ZH-CN742316019.jpg"
+								draggable="false"></li>
+					</ul>
+				<!--<ol class="am-control-nav am-control-paging">
+					<li><a class="am-active">1</a><i></i></li>
+					<li><a class="">2</a><i></i></li>
+					<li><a class="">3</a><i></i></li>
+					<li><a class="">4</a><i></i></li>
+				</ol>
+				<ul class="am-direction-nav">
+					<li><a class="am-prev" href="#">Previous</a></li>
+					<li><a class="am-next" href="#">Next</a></li>
+				</ul>-->
+			</div>
+		</div>
+		<!--<div class="doc-example">
+			<div class="am-slider am-slider-default">
+				<div class="am-viewport" style="overflow: hidden; position: relative;">
+					<ul class="am-slides"
+						style="width: 1200%; transition-duration: 0s; transform: translate3d(-682px, 0px, 0px);">
+						<li class="clone" aria-hidden="true" style="float: left; display: block; width: 682px;">
+							<div class="bigbanner">
+								<div class="am-container">
+									<div class="am-g">
+										<div class="am-u-lg-12 am-u-md-12 am-u-sm-12">
+											<h2 class="am-text-center" >另一种风景 </h2>
+											<p class="am-text-center " >策展人：</p>
+											<button class="am-center am-btn-xs am-btn am-btn-danger am-radius am-animation-slide-bottom am-animation-delay-1">READ MORE</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="clone" aria-hidden="true" style="float: left; display: block; width: 682px;">
+							<div class="bigbanner">
+								<div class="am-container">
+									<div class="am-g">
+										<div class="am-u-lg-12 am-u-md-12 am-u-sm-12">
+											<h2 class="am-text-center" >dsad </h2>
+											<p class="am-text-center " >来自俊贰网络永不畏惧的创新力量</p>
+											<button class="am-center am-btn-xs am-btn am-btn-danger am-radius am-animation-slide-bottom am-animation-delay-1">READ MORE</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<ol class="am-control-nav am-control-paging">
+					<li><a class="">1</a><i></i></li>
+					<li><a class="">2</a><i></i></li>
+				</ol>
+				<ul class="am-direction-nav">
+					<li><a class="am-prev" href="#">Previous</a></li>
+					<li><a class="am-next" href="#">Next</a></li>
+				</ul>
+			</div>
+		</div>-->
+
+		<div class="text-box">
+			<div class="am-container text-box">
+				<h2 class="" data-am-scrollspy="{animation: 'slide-top', delay: 300}">我们的服务</h2>
+				<p class="" data-am-scrollspy="{animation: 'slide-top', delay: 300}">全力为江门恩平中小企业提供网页设计、网站建设、淘宝/天猫/京东等店铺详情装修设计、产品摄影、广告拍摄、营销策划、平面设计、品牌推广等高端订制服务。</p>
+				<div class="am-g">
+					<div class="am-u-lg-2 am-u-md-2" data-am-scrollspy="{animation: 'slide-top', delay: 100}">
+						<h2 class="">网页设计</h2>
+						<p class="">为客户提供专业化、品牌化的PC手机网站设计、助您在网络领域超越同行者。</p>
+					</div>
+					<div class="am-u-lg-2 am-u-md-2" data-am-scrollspy="{animation:'slide-top', delay: 100}">
+						<h2 class="">平面设计</h2>
+						<p class="">专业的服务团队为您量身定制，优秀的设计方案及后期制作，为您解决一切后顾之忧。</p>
+					</div>
+					<div class="am-u-lg-2 am-u-md-2" data-am-scrollspy="{animation:'slide-top', delay: 300}">
+						<h2 class="">营销策划</h2>
+						<p class="">运用专业营销理论思想与实战经验，帮助企业以更经济更快速的方式打开市场。</p>
+					</div>
+					<div class="am-u-lg-2 am-u-md-2" data-am-scrollspy="{animation:'slide-top', delay: 300}">
+						<h2 class="">广告拍摄</h2>
+						<p class="">致力于本土电子行业产品拍摄、企业宣传拍摄、商业摄影等专业拍摄服务。</p>
+					</div>
+					<div class="am-u-lg-2 am-u-md-2" data-am-scrollspy="{animation:'slide-top', delay: 500}">
+						<h2 class="">电商设计</h2>
+						<p class="">专注高端电商定制服务，打造顶级视觉传达设计服务，完美提升品牌形象。</p>
+					</div>
+					<div class="am-u-lg-2 am-u-md-2" data-am-scrollspy="{animation:'slide-top', delay: 500}">
+						<h2 class="">品牌策划</h2>
+						<p class="">从定位到设计一系列的系统的视觉形象策划设计方案，为你排忧解难。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="pic-box">
+			<div class="am-container">
+				<h2 class="" data-am-scrollspy="{animation: 'slide-bottom', delay: 100}">案例展示</h2>
+				<p class="" data-am-scrollspy="{animation: 'slide-bottom', delay: 100}">多终端一体化创新设计解决方案响应式自适应设计</p>
+				<div class="am-g">
+					<div class="am-u-lg-4 am-u-md-4 pic" data-am-scrollspy="{animation: 'slide-bottom', delay: 300}">
+						<img src="img/46.jpg" class="am-img-responsive" style="width: 100%;" >
+						<div class="bg">
+							<div class="bg-text">
+								<h3 >SOLOVE素乐</h3>
+                        		<p >我想我会遇见你，像恋人般重逢美丽</p>
+							</div>
+						</div>
+					</div>
+					<div class="am-u-lg-4 am-u-md-4 pic" data-am-scrollspy="{animation: 'slide-bottom', delay: 100}">
+						<img src="img/23.jpg" class="am-img-responsive" style="width: 100%;" >
+						<div class="bg">
+							<div class="bg-text">
+								<h3>广州唯一印象婚纱摄影</h3>
+	                            <p>专注高端定制婚纱摄影</p>
+	                        </div>   
+						</div>
+					</div>
+					<div class="am-u-lg-4 am-u-md-4 pic" data-am-scrollspy="{animation: 'slide-bottom', delay: 300}">						
+						<img src="img/32.jpg" class="am-img-responsive" style="width: 100%;" >
+						<div class="bg">
+							<div class="bg-text">
+								<h3>南京启凡英语课程专题</h3>
+	                            <p>南京唯一一家欧洲教育管理培训中心</p>
+	                        </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr />
+		<div class="logos">
+			<div class="am-container">
+				<h2 class="" data-am-scrollspy="{animation: 'slide-bottom', delay: 100}">协助伙伴</h2>
+				<p class="" data-am-scrollspy="{animation: 'slide-bottom', delay: 100}">多终端一体化创新设计解决方案响应式自适应设计</p>
+				<ul class="am-avg-lg-8 am-avg-md-8 am-avg-sm-2 am-thumbnails">
+					<li class="">
+						<img src="img/adobe.png" class="am-thumbnail am-img-responsive" style="width: 100%;" data-am-scrollspy="{animation: 'slide-bottom', delay: 200}">
+					</li>
+					<li class="">
+						<img src="img/aliyun.png" class="am-thumbnail am-img-responsive" style="width: 100%;" data-am-scrollspy="{animation: 'slide-bottom', delay: 100}">
+					</li>
+					<li class="">
+						<img src="img/apple.png" class="am-thumbnail am-img-responsive" style="width: 100%;" data-am-scrollspy="{animation: 'slide-bottom', delay: 300}">
+					</li>
+					<li class="">
+						<img src="img/canon.png" class="am-thumbnail am-img-responsive" style="width: 100%;" data-am-scrollspy="{animation: 'slide-bottom', delay: 200}">
+					</li>
+					<li class="">
+						<img src="img/dianxin.png" class="am-thumbnail am-img-responsive" style="width: 100%;" data-am-scrollspy="{animation: 'slide-bottom', delay: 300}">
+					</li>
+					<li class="">
+						<img src="img/baidu.png" class="am-thumbnail am-img-responsive" style="width: 100%;" data-am-scrollspy="{animation: 'slide-bottom', delay: 300}">
+					</li>
+					<li class="">
+						<img src="img/microsoft.png" class="am-thumbnail am-img-responsive" style="width: 100%;" data-am-scrollspy="{animation: 'slide-bottom', delay: 200}">
+					</li>
+					<li class="">
+						<img src="img/tencent.png" class="am-thumbnail am-img-responsive" style="width: 100%;" data-am-scrollspy="{animation: 'slide-bottom', delay: 100}">
+					</li>
+				</ul>
+			</div>
+		</div>
 		
+		<div class="about">
+			<div class="am-container">
+				<h2 class="" data-am-scrollspy="{animation: 'slide-bottom', delay: 100}">联系我们</h2>
+				<p class="" data-am-scrollspy="{animation: 'slide-bottom', delay: 100}">你可以通过以下方式和我们取得联系。</p>
+				<ul class="am-avg-lg-4 am-avg-md-4 am-avg-sm-2">
+					<li data-am-scrollspy="{animation: 'slide-bottom', delay: 100}">
+						<i class="am-icon-qq"></i>
+						11413865
+					</li>
+					<li data-am-scrollspy="{animation: 'slide-bottom', delay: 200}">
+						<i class="am-icon-phone-square"></i>
+						13726151807
+					</li>
+					<li data-am-scrollspy="{animation: 'slide-bottom', delay: 300}">
+						<i class="am-icon-weixin"></i>
+						13726151807
+					</li>
+					<li data-am-scrollspy="{animation: 'slide-bottom', delay: 400}">
+						<i class="am-icon-envelope"></i>
+						imj2@qq.com
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="white">
+			<div class="am-container">
+				<div class="am-g">
+					<div class="am-u-lg-6 am-u-md-6 am-u-sm-12 sp" data-am-scrollspy="{animation: 'slide-left', delay: 100}">
+						<span class="have ">拥有不一样的高端品牌网站，你还在等什么？点击马上和我们联系！</span>
+					</div>
+					<div class="am-u-lg-6 am-u-md-6 am-text-right am-hide-sm sp" data-am-scrollspy="{animation: 'slide-right', delay: 100}">
+						<span class="btn" >马上联系</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="friend">
+			<div class="am-container">
+				<div class="am-g">
+					<div class="am-u-lg-6 am-u-md-12 am-u-sm-12">
+						<h3>关于我们</h3>
+						<p>俊贰网络成立于2010年，专注高端网站建设、视觉设计、平面设计、广告拍摄、产品摄影、营销策划和品牌网络推广为一体的创新高端公司，拥有超过8年行业经验的资深团队及设计、开发、摄影、营销、开发经验，强悍创新的视觉执行力</p>
+					</div>
+					<div class="am-u-lg-3 am-u-md-6 am-hide-sm">
+						<h3>最新资讯</h3>
+						<p>台山社保局<br />
+						     江门市外海小学<br />
+						     恩城三小<br />
+						</p>
+					</div>
+					<div class="am-u-lg-3 am-u-md-6 am-hide-sm other">
+						<h3>其他</h3>
+						<ul>
+							<li><p>网站欣赏  </p></li>
+							<li><p>合作流程</p> </li>
+							<li><p>帮助中心</p> </li>
+							<li><p>联系我们 </p></li>
+						</ul>
+					</div>
+				</div>
+				<div class="am-g">
+					<div class="am-u-6 am-u-md-12 am-u-sm-12">
+						<h3>友情链接</h3>
+						<p>恩平政府  恩平信息网</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<footer>
+			<div class="am-container">
+				<div class="am-u">
+					<div class="am-u-lg-7 am-u-md-7">
+						<span>Copyright @ 2010 - 2015 www.imj2.com. All Rights Reserved  <a href=""> 粤ICP备11092500号-1</a></span>
+					</div>
+					<div class="am-u-lg-5 am-u-md-5 am-text-right tubiao">
+						<a href="" class="am-icon-qq" data-am-popover="{content: '11413865', trigger: 'hover focus'}" data-am-scrollspy="{animation: 'slide-bottom', delay: 200}"></a>
+						<a href="" class="am-icon-phone-square" data-am-popover="{content: '11413865', trigger: 'hover focus'}" data-am-scrollspy="{animation: 'slide-bottom', delay: 200}"></a>
+						<a href="" class="am-icon-wechat" data-am-popover="{content: '11413865', trigger: 'hover focus'}" data-am-scrollspy="{animation: 'slide-bottom', delay: 200}"></a>
+						<a href="" class="am-icon-empire" data-am-popover="{content: '11413865', trigger: 'hover focus'}" data-am-scrollspy="{animation: 'slide-bottom', delay: 200}"></a>
+					</div>
+				</div>				
+			</div>
+		</footer>
+		
+		<!--<div class="mytop">
+			<div class="erweima">
+				<div class="wx">
+				</div>
+			</div>
+		</div>-->
+		<div data-am-widget="gotop" class="top am-gotop am-gotop-fixed">
+			<a href="#top">
+				<i class="am-gotop-icon am-icon-chevron-up">
+			</a>
+		</div>
+		
+		<!--[if (gte IE 9)|!(IE)]><!-->
+		<script src="js/jquery-1.12.4.js"></script>
+		<!--<![endif]
+		[if lte IE 8 ]>
+		<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+		<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+		<script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+		<![endif]-->
+
+		<script src="js/amazeui.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('.am-slider').flexslider();
+			})
+
+		</script>
+
 	</body>
-	<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-	<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
-	<script type="text/javascript" src="js/jquery.SuperSlide.2.1.js"></script>
-	
-	<script src="js/numberAdd.js" type="text/javascript" charset="utf-8"></script>
-	<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
-	
-	<script type="text/javascript" src="js/wow.min.js"></script>
-	
-	<script type="text/javascript">
-		//多图轮播
-		jQuery(".picScroll").slide({ mainCell:"ul", effect:"leftLoop", vis:6, scroll:1,  autoPage:true, switchLoad:"_src",autoPlay:true});
-	   	
-	    //banner轮播
-	    var swiper = new Swiper('.swiper-container', {
-	      spaceBetween: 30,
-//	      effect: 'fade',
-		  loop: true,
-	      pagination: {
-	        el: '.swiper-pagination',
-	        clickable: true,
-	      },
-	      navigation: {
-	        nextEl: '.swiper-button-next',
-	        prevEl: '.swiper-button-prev',
-	      },
-	    });
-	    
-	    //鼠标滚动特效
-	   	new WOW().init();
-	</script>
+
 </html>
