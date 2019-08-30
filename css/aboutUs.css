@@ -1,0 +1,25 @@
+.aboutbanner {
+    height: 382px;
+    background: url(../img/guanyu.png) no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #000000;
+	margin-top: 5.1rem;
+}
+.zhengwen {
+	margin: 82px 580px 82px 183.73px;
+	line-height: 2;
+}
+.about-title {
+	font-size: 38px;
+}
+.about-small-title {
+	font-size: 23px;
+}
+.aboutbanner .am-container {
+	padding-top: 5.5625rem;
+	max-width: 1440px;
+}
+.am-article-bd p {
+	font-size: 13px;
+}
