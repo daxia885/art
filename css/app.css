@@ -346,7 +346,7 @@ footer .tubiao a:hover{
 	transition: all 0.5s;
 }
 .top{
-	background:url(../img/side-icon02.png)  #d22e3e no-repeat  50% 50%;
+	/*background:url(../img/side-icon02.png)  #d22e3e no-repeat  50% 50%;*/
 	cursor: pointer;
 }
 .top:hover{
