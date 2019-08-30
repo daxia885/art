@@ -305,32 +305,12 @@ ul.am-dropdown-content>li>a:hover {
 }
 
 /*footer*/
-footer{
-	background: #0d121b;
-	padding: 20px 0;
+footer {
+	margin-top: 20px;
 }
-footer span,footer span a{
-	color: #4f5766;
+footer p{
 	font-size: 12px;
-	-webkit-transition: all 0.5s;
-	transition: all 0.5s;
-}
-footer .am-u-lg-7{
-	padding-left: 0;
-}
-footer span a:hover{
-	color:  #c92938;
-}
-footer .tubiao a{
-	padding:0 10px;
-	color: #555d6d;
-	font-size: 14px;
-	cursor: pointer;
-	-webkit-transition: all 0.5s;
-	transition: all 0.5s;
-}
-footer .tubiao a:hover{
-	color:#c92938;
+	font-weight: 600;
 }
 
 /*mytop start*/
@@ -401,4 +381,14 @@ footer .tubiao a:hover{
 .ownPoint>.am-direction-nav>li> a{
 	position: absolute;
 	top:104%;
+}
+.fonticonStyle {
+	line-height: 40px;
+}
+.fonticonStyle span {
+	padding: 5px;
+	font-size: 20px;
+	border-radius: 3px;
+	color: #fff;
+	background: #404040;margin-right: 5px;
 }
