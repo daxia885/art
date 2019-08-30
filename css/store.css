@@ -1,0 +1,100 @@
+/*storebanner_1 start*/
+.storebanner_1{
+    height: 680px;
+    background: url(../img/14STORE1.png) no-repeat center;
+    -webkit-background-size:cover;
+    background-size: cover;
+    color: #fff;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 4%;
+}
+.storebanner_1 .am-container{
+    padding-top: 300px;
+}
+.storebanner_1 .am-container h2{
+    font:normal 40px/50px "微软雅黑";
+    letter-spacing:5px;
+    font-weight: 400;
+    cursor: pointer;
+}
+@media only screen and (max-width: 640px) {
+    .storebanner_1 .am-container h2{
+        font-size:30px;
+        letter-spacing:5px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .storebanner_1 .am-container h2{
+        font-size:20px;
+        letter-spacing:5px;
+    }
+}
+.storebanner_1 .am-container p{
+    font:normal 30px/38px "微软雅黑";
+    letter-spacing:5px;
+}
+@media only screen and (max-width: 640px) {
+    .storebanner_1 .am-container p{
+        font:normal 22px/30px "微软雅黑";
+        letter-spacing:5px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .storebanner_1 .am-container p{
+        font:normal 16px/24px "微软雅黑";
+        letter-spacing:5px;
+    }
+}
+/*storebanner_1 end*/
+
+
+/*storebanner_2 start*/
+.storebanner_2{
+    height: 680px;
+    background: url(../img/14STORE1.png) no-repeat center;
+    -webkit-background-size:cover;
+    background-size: cover;
+    color: #fff;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 4%;
+}
+.storebanner_2 .am-container{
+    padding-top: 300px;
+}
+.storebanner_2 .am-container h2{
+    font:normal 40px/50px "微软雅黑";
+    letter-spacing:5px;
+    font-weight: 400;
+    cursor: pointer;
+}
+@media only screen and (max-width: 640px) {
+    .storebanner_2 .am-container h2{
+        font-size:30px;
+        letter-spacing:5px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .storebanner_2 .am-container h2{
+        font-size:20px;
+        letter-spacing:5px;
+    }
+}
+.storebanner_2 .am-container p{
+    font:normal 30px/38px "微软雅黑";
+    letter-spacing:5px;
+}
+@media only screen and (max-width: 640px) {
+    .storebanner_2 .am-container p{
+        font:normal 22px/30px "微软雅黑";
+        letter-spacing:5px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .storebanner_2 .am-container p{
+        font:normal 16px/24px "微软雅黑";
+        letter-spacing:5px;
+    }
+}
+/*storebanner_2 end*/
