@@ -21,7 +21,7 @@ header {
   opacity: 0.95;
 }
 .am-container {
-	max-width: 1200px;
+	max-width: 1440px;
 }
 @media only screen and (max-width:640px ) {
 	header{
@@ -42,10 +42,6 @@ header {
 /*媒体查询*/
 /*当页面大于1200px 时，大屏幕，主要是PC 端*/
 @media (min-width: 1025px) {
-	.am-container {
-		min-width: 1440px;
-		max-width: 1920px;
-	}
 	.leftRight {
 		padding-right: 0;
 	}
