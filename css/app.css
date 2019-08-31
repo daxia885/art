@@ -20,6 +20,9 @@ header {
   filter: alpha(opacity=95);
   opacity: 0.95;
 }
+.am-container {
+	max-width: 1440px;
+}
 @media only screen and (max-width:640px ) {
 	header{
 		height: 0;
@@ -29,6 +32,50 @@ header {
 		margin-top: 10px;
 	}
 }
+/*当页面大于2000px 时，大屏幕，主要是PC 端*/
+@media only screen and (min-width:2000px) {
+	.am-container {
+		min-width: 1440px;
+		max-width: 1920px;
+	}
+}
+/*媒体查询*/
+/*当页面大于1200px 时，大屏幕，主要是PC 端*/
+@media (min-width: 1025px) {
+	.leftRight {
+		padding-right: 0;
+	}
+	.rightLeft {
+		padding-left: 0;
+	}
+	.ownimgHeight {
+		height: 700px;
+	}
+	.ownAutoImg {
+		width: 100%;height: 100%;
+	}
+	.ownAutoImgTwo {
+		width: 100%;height: 50%;
+	}
+}
+/*在992 和1199 像素之间的屏幕里，中等屏幕，分辨率低的PC*/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+/*在768 和991 像素之间的屏幕里，小屏幕，主要是PAD*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+/*在480 和767 像素之间的屏幕里，超小屏幕，主要是手机*/
+@media (min-width: 480px) and (max-width: 767px) {
+
+}
+/*在小于480 像素的屏幕，微小屏幕，更低分辨率的手机*/
+@media (max-width: 479px) {
+
+}
+
+
 .am-topbar{
 	background-color:transparent;  /*背景为透明*/
 	border-style:none;
@@ -43,9 +90,6 @@ header {
   background: url(../img/logo@2x.png) no-repeat left center;
   -webkit-background-size: 125px 40px;
   background-size: 125px 40px;
-}
-.am-container {
-  max-width: 1200px;
 }
 .am-topbar-right{
 	line-height: 40px;
@@ -83,8 +127,8 @@ ul.am-dropdown-content>li>a{
 ul.am-dropdown-content>li>a:hover {
 	background-color:none;
 }
-.am-nav>li.am-active>a, .am-nav>li.am-active>a:focus, .am-nav>li.am-active>a:hover{
-	/*background-color:#ba1f2e;!important*/
+.am-nav>li.am-active, .am-nav>li.am-active:focus, .am-nav>li.am-active:hover{
+	background-color:#c3c3c3;!important
 }
 .am-header a {
   color: #fff;
@@ -109,15 +153,26 @@ ul.am-dropdown-content>li>a:hover {
 
 /*banner start*/
 .bigbanner{
-	height: 680px;
+	height: 500px;
 	background: url(../img/shouye1.jpg) no-repeat center;
   	-webkit-background-size:cover;
   	background-size: cover;
   	color: #fff;
 }
+.bigbannerOne{
+	height: 1200px;
+	background: url(../img/03-01DQ1.png) no-repeat center;
+	-webkit-background-size:cover;
+	background-size: cover;
+	color: #fff;
+}
 .bigbanner .am-container{
-	padding-top: 300px;
-} 
+	padding-top: 200px;
+}
+.bigbannerOne .am-container{
+	padding-top:6%;
+
+}
 .bigbanner .am-container h2{
 	font:normal 40px/50px "微软雅黑";
 	letter-spacing:5px;
@@ -129,28 +184,24 @@ ul.am-dropdown-content>li>a:hover {
 		font-size:30px;
 		letter-spacing:5px;
 	}
-}
-@media only screen and (max-width: 500px) {
-	.bigbanner .am-container h2{
-		font-size:20px;
-		letter-spacing:5px;
-	}
-}
-.bigbanner .am-container p{
-	font:normal 30px/38px "微软雅黑";
-	letter-spacing:5px;
-}
-@media only screen and (max-width: 640px) {
 	.bigbanner .am-container p{
 		font:normal 22px/30px "微软雅黑";
 		letter-spacing:5px;
 	}
 }
 @media only screen and (max-width: 500px) {
+	.bigbanner .am-container h2{
+		font-size:20px;
+		letter-spacing:5px;
+	}
 	.bigbanner .am-container p{
 		font:normal 16px/24px "微软雅黑";
 		letter-spacing:5px;
 	}
+}
+.bigbanner .am-container p{
+	font:normal 30px/38px "微软雅黑";
+	letter-spacing:5px;
 }
 /*banner end*/
 
@@ -357,6 +408,11 @@ footer p{
 	width: 20px;
 	background-color:#000;
 }
+.ownlineTwo{
+	height:5px;
+	width: 20px;
+	background-color:#fff;
+}
 .ownTitle {
 	font-weight: 700;margin-top: 0px;margin-bottom: 0;font-size: 14px;
 }
@@ -386,3 +442,7 @@ footer p{
 	color: #fff;
 	background: #404040;margin-right: 5px;
 }
+.ownactive, .ownactiveCopy{
+	background: #c3c3c3;
+}
+
