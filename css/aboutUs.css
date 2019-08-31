@@ -1,4 +1,4 @@
-.aboutbanner {
+.memberbanner {
     height: 382px;
     background: url(../img/guanyu.png) no-repeat center;
     -webkit-background-size: cover;
@@ -7,18 +7,20 @@
 	margin-top: 5.1rem;
 }
 .zhengwen {
-	margin: 82px 580px 82px 183.73px;
+	font: normal 13px "PingFang SC";
+	margin: 82px 400px 82px 120px;
 	line-height: 2;
 }
 .about-title {
-	font-size: 38px;
+	font: normal 38px "PingFang SC";
 }
 .about-small-title {
-	font-size: 23px;
+	font: bold 23px "PingFang SC";
 }
 .aboutbanner .am-container {
-	padding-top: 5.5625rem;
 	max-width: 1440px;
+	margin-left: 120px;
+	padding: 47px 0px;
 }
 .am-article-bd p {
 	font-size: 13px;
