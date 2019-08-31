@@ -1,0 +1,445 @@
+<!doctype html>
+<html class="no-js">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<title>会员介绍</title>
+
+		<!--移动优先-->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<!-- 渲染引擎 只对 360 浏览器 6.5+ 有效-->
+		<meta name="renderer" content="webkit">
+		<!-- 如果你的网站不想被剥去外衣、往赤裸的身体上贴广告，就加上下面的代码（百度会为你的网页进行转码）-->
+		<meta http-equiv="Cache-Control" content="no-siteapp" />
+		<link rel="icon" type="image/png" href="i/favicon.png">
+		<!-- Add to homescreen for Chrome on Android 添加到Android上的Chrome主屏幕（网站开启对web app程序的支持）-->
+		<meta name="mobile-web-app-capable" content="yes">
+		<link rel="icon" sizes="192x192" href="i/app-icon72x72@2x.png">
+		<!-- Add to homescreen for Safari on iOS 添加到桌面的iOS Safari  网站开启对web app程序的支持-->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="apple-mobile-web-app-title" content="Amaze UI" />
+		<link rel="apple-touch-icon-precomposed" href="i/app-icon72x72@2x.png">
+		<!-- Tile icon for Win8 (144x144 + tile color) 添加到主屏后-设置状态栏的背景颜色(win8)-->
+		<meta name="msapplication-TileImage" content="i/app-icon72x72@2x.png">
+		<meta name="msapplication-TileColor" content="#0e90d2">
+
+		<!--引用-->
+		<link rel="stylesheet" href="css/amazeui.min.css">
+		<link rel="stylesheet" href="css/app.css">
+		<link rel="stylesheet" href="css/iconfont.css">
+		<link rel="stylesheet" href="css/member.css">
+	</head>
+	<body>
+		<header>
+			<!--导航-->
+			<div class="am-topbar am-show-md-up" style="border-bottom: 2px solid #0d121b" data-am-sticky>
+				<div class="am-container">
+					<h1 class="am-topbar-brand " style="border-right: 2px solid #0d121b">
+					    <img src="img/Page.png" class="">
+					</h1>
+					<div class="am-topbar-left">
+						<ul class="am-nav am-nav-pills ownlinght">
+							<li>
+								<a href="index.html">参观</a>
+							</li>
+							<!--下拉菜单-->
+							<li class="am-dropdown" data-am-dropdown>
+								<a class="am-dropdown-toggle" data-am-dropdown-toggle href="#">
+									展览
+								</a>
+								<ul class="am-dropdown-content">
+									<li>
+										<a href="second.html">当前展览</a>
+									</li>
+									<li>
+										<a href="#">展览预告</a>
+									</li>
+									<li>
+										<a href="#">展览回顾</a>
+									</li>
+									<li>
+										<a href="#">活动申办</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="">媒体</a>
+							</li>
+							<li>
+								<a href="">公共项目</a>
+							</li>
+							<li>
+								<a href="">YAM Learn</a>
+							</li>
+							<li>
+								<a href="">支持我们</a>
+							</li>
+							<li>
+								<a href="">关于我们</a>
+							</li>
+							<li>
+								<a href="">YAM Store</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<!--菜单-->
+			<div data-am-widget="header" class="am-header  am-show-sm-only">
+				<!--<div class="am-header-right am-header-nav">
+					<a href="#right-link" class="">
+						<i class="am-header-icon am-icon-home"></i>
+						<span class="am-header-nav-title">首页</span>
+					</a>
+				</div>-->
+				<h1 class="am-header-title"></h1>
+				<div class="am-header-left am-header-nav">
+					<a href="#left-link" class="" data-am-offcanvas="{target: '#r-nav',effect: 'push'}">
+						<i class="am-header-icon am-icon-bars"></i>
+						<span class="am-header-nav-title">菜单</span>
+					</a>
+				</div>
+			</div>
+
+			<!-- 侧边栏内容 -->
+			<div id="r-nav" class="am-offcanvas">
+				<div class="am-offcanvas-bar">
+					<ul class="am-offcanvas-content am-nav ownlinght">
+						<li>
+							<a href="index.html">参观</a>
+						</li>
+						<!--下拉菜单-->
+						<li class="am-dropdown" data-am-dropdown>
+							<a class="am-dropdown-toggle" data-am-dropdown-toggle href="#">
+								展览
+							</a>
+							<ul class="am-dropdown-content">
+								<li>
+									<a href="second.html">当前展览</a>
+								</li>
+								<li>
+									<a href="#">展览预告</a>
+								</li>
+								<li>
+									<a href="#">展览回顾</a>
+								</li>
+								<li>
+									<a href="#">活动申办</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="">媒体</a>
+						</li>
+						<li>
+							<a href="">公共项目</a>
+						</li>
+						<li>
+							<a href="">YAM Learn</a>
+						</li>
+						<li>
+							<a href="">支持我们</a>
+						</li>
+						<li>
+							<a href="">关于我们</a>
+						</li>
+						<li>
+							<a href="">YAM Store</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</header>
+
+		<!--banner-->
+		<div class="member">
+			<div class="am-slider am-slider-default">
+				<div class="am-viewport" style="overflow: hidden; position: relative;">
+					<ul class="am-slides"
+						style="width: 1200%; transition-duration: 0s; transform: translate3d(-682px, 0px, 0px);">
+						<li class="clone" aria-hidden="true" style="float: left; display: block; width: 682px;">
+							<div class="memberbanner">
+								<div class="am-container">
+									<div class="am-g">
+										<div class="am-u-lg-12 am-u-md-12 am-u-sm-12">
+											<h2 class="am-text-fl about-title" >Membership</h2>
+											<h3 class="am-text-fl about-small-title">会员制度</h3>
+											<div class="owntop">
+												<div class="ownline"></div>
+												<h4 class="m-banner-text">普通会员 Normal Member</h4>
+												<h4 class="m-banner-text">填写个人信息：姓名、电话、性别、邮箱，关注央美术馆微信公众号，即可成为美术馆会员。免费获悉美术馆展览及活动资讯。</h4>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<div class="student-card card">
+			<div class="am-g am-container m-gray-container">
+				<div class="am-u-lg-6 am-u-md-6 am-u-sm-6">
+					<img src="img/huiyuan02.png" class="am-img-responsive m-img-center"/>
+					<button type="button" class="am-center am-btn-xs am-btn" style="border:1px solid #000;background-color:transparent;">
+						<em class="fontDetails">立即购买</em>
+					</button>
+				</div>
+				<div class="am-u-lg-6 am-u-md-6 am-u-sm-6">
+					<div class="am-u-lg-2 am-u-md-2 am-u-sm-2">
+						<div class="owntop">
+							<div class="ownline"></div>
+							<h4 class="m-card-title">YAM<br>Student</h4>
+							<h4 class="m-card-text">学生卡</h4>
+						</div>
+					</div>
+					<div class="am-u-lg-10 am-u-md-10 am-u-sm-10">
+						<div class="owntop">
+							<h4 class="m-card-small-title">年费:100元/人</h4>
+							<h4 class="m-card-small-text">针对18岁以下在校学生以及在25周岁以下在校大学生的会员优惠活动，办理时需要出示个人身份证和学生证。</h4>
+						</div>
+						<div class="owntop">
+							<h4 class="m-card-small-title m-card-title-margin">会员优惠</h4>
+							<h4 class="m-card-small-text">
+								1. 	全年免费参观展览（不含收费特展）<br><br>
+								2. 	免费获得美术馆展览及活动资讯<br><br>
+								3. 	提前预约可享受专人导览服务<br><br>
+								4. 	优先预约参加美术馆公共教育活动，并预留会员席位，可免费参加一场收费活动<br><br>
+								5. 	YAM store艺术书籍享九折优惠。<br>
+							</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 单人卡 -->
+		<div class="single-card card">
+			<div class="am-g am-container m-white-container">
+				<div class="am-u-lg-6 am-u-md-6 am-u-sm-6">
+					<div class="am-u-lg-2 am-u-md-2 am-u-sm-2 am-u-lg-offset-2 am-u-md-offset-2 am-u-sm-offset-2">
+						<div class="owntop">
+							<div class="ownline"></div>
+							<h4 class="m-card-title">YAM<br>ME</h4>
+							<h4 class="m-card-text">单人卡</h4>
+						</div>
+					</div>
+					<div class="am-u-lg-8 am-u-md-8 am-u-sm-8">
+						<div class="owntop">
+							<h4 class="m-card-small-title">年费:399元/人</h4>
+						</div>
+						<div class="owntop">
+							<h4 class="m-card-small-title m-card-title-margin">会员优惠</h4>
+							<h4 class="m-card-small-text">
+								1. 	全内免费参观展览，特展门票九折优惠<br><br>
+								2. 	免费获得美术馆展览及活动资讯<br><br>
+								3. 	获邀参加展览开幕式<br><br>
+								4. 	提前预约可享受专人导览服务<br><br>
+								5. 	优先预约参加美术馆公共教育活动，并预留会员席位，可免费参加两场收费活动； <br><br>
+								6. 	YAM store艺术书籍享九折优惠。<br>
+							</h4>
+						</div>
+					</div>
+				</div>
+				<div class="am-u-lg-6 am-u-md-6 am-u-sm-6">
+					<img src="img/huiyuan03.png" class="am-img-responsive m-img-center"/>
+					<button type="button" class="am-center am-btn-xs am-btn" style="border:1px solid #000;background-color:transparent;">
+						<em class="fontDetails">立即购买</em>
+					</button>
+				</div>
+			</div>
+		</div>
+		
+		<!-- 家庭卡 -->
+		<div class="student-card card">
+			<div class="am-g am-container m-gray-container">
+				<div class="am-u-lg-6 am-u-md-6 am-u-sm-6">
+					<img src="img/huiyuan04.png" class="am-img-responsive m-img-center"/>
+					<button type="button" class="am-center am-btn-xs am-btn" style="border:1px solid #000;background-color:transparent;">
+						<em class="fontDetails">立即购买</em>
+					</button>
+				</div>
+				<div class="am-u-lg-6 am-u-md-6 am-u-sm-6">
+					<div class="am-u-lg-2 am-u-md-2 am-u-sm-2">
+						<div class="owntop">
+							<div class="ownline"></div>
+							<h4 class="m-card-title">YAM<br>Family</h4>
+							<h4 class="m-card-text">家庭卡</h4>
+						</div>
+					</div>
+					<div class="am-u-lg-10 am-u-md-10 am-u-sm-10">
+						<div class="owntop">
+							<h4 class="m-card-small-title">年费:799元/家</h4>
+							<h4 class="m-card-small-text">专为有14周岁以下儿童的家庭定制（最多2名家长携带2名儿童）</h4>
+						</div>
+						<div class="owntop">
+							<h4 class="m-card-small-title m-card-title-margin">会员优惠</h4>
+							<h4 class="m-card-small-text">
+								1. 	全年免费参观展览，特展门票九折优惠<br><br>
+								2. 	免费获得美术馆展览及活动资讯<br><br>
+								3. 	获邀参加展览开幕式<br><br>
+								4. 	提前预约可享受专人导览服务<br><br>
+								5. 	优先预约参与美术馆公共教育活动，并预留会员席位，可免费参加两场儿童收费活动及一场成人收费活动，本年度再参加收费活动享九折优惠<br><br>
+								6. 	儿童生日当月，在美术馆前台可领取精美礼物一份<br><br>
+								7. 	YAM store艺术书籍享九折优惠。<br>
+							</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- 贵宾卡 -->
+		<div class="super-card card">
+			<div class="am-g am-container m-white-container">
+				<div class="am-u-lg-6 am-u-md-6 am-u-sm-6">
+					<div class="am-u-lg-2 am-u-md-2 am-u-sm-2 am-u-lg-offset-2 am-u-md-offset-2 am-u-sm-offset-2">
+						<div class="owntop">
+							<div class="ownline"></div>
+							<h4 class="m-card-title">SUPER<br>YAM</h4>
+							<h4 class="m-card-text">贵宾卡</h4>
+						</div>
+					</div>
+					<div class="am-u-lg-8 am-u-md-8 am-u-sm-8">
+						<div class="owntop">
+							<h4 class="m-card-small-title">年费:1399元/人</h4>
+						</div>
+						<div class="owntop">
+							<h4 class="m-card-small-title m-card-title-margin">会员优惠</h4>
+							<h4 class="m-card-small-text">
+								1. 	可携三位好友同行，全年免费参观展览，特展门票九折优惠<br><br>
+								2. 	免费获得美术馆展览及活动资讯<br><br>
+								3. 	获邀参加展览开幕式及预展VIP酒会<br><br>
+								4. 	提前预约可享受专人导览服务<br><br>
+								5. 	可预约参观美术馆馆藏艺术品<br><br>
+								6. 	优先预约参与美术馆公共教育活动，并预留会员席位，可免费参加两场儿童收费活动及两场成人收费活动，本年度再参加收费活动享九折优惠<br><br>
+								7. 	可免费获得美术馆出版的展览画册<br><br>
+								8. 	YAM store所有商品享九折优惠<br><br>
+								9. 	可携一位好友同行，获邀参加美术馆年度晚宴。<br>
+							</h4>
+						</div>
+					</div>
+				</div>
+				<div class="am-u-lg-6 am-u-md-6 am-u-sm-6">
+					<img src="img/huiyuan05.png" class="am-img-responsive m-img-center"/>
+					<button type="button" class="am-center am-btn-xs am-btn" style="border:1px solid #000;background-color:transparent;">
+						<em class="fontDetails">立即购买</em>
+					</button>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="introduce card">
+			<div class="am-g am-container m-gray-container">
+				<div class="am-u-lg-12 am-u-md-12 am-u-sm-12">
+					<div class="am-u-lg-2 am-u-md-2 am-u-sm-2 am-u-lg-offset-1 am-u-md-offset-1 am-u-sm-offset-1">
+						<div class="owntop">
+							<div class="ownline"></div>
+							<h4 class="m-card-title">Announcement</h4>
+							<h4 class="m-card-text">注意事项</h4>
+						</div>
+					</div>
+					<div class="am-u-lg-9 am-u-md-9 am-u-sm-9">
+						<div class="owntop">
+							<h4 class="m-card-small-text">
+								1. 	会员卡使用年限为一年（自办卡日至明年即日止），续卡可凭上年年卡享受8折优惠<br><br>
+								2. 	会员卡一经售出，不得退换及转让。会员卡如有遗失或损坏，请携带有效证件至央美术馆前台补办。(工本费：20元)<br><br>
+								3. 	随时办卡，在央美术馆凭身份证、学生证等相关证件皆可办理。办理时请详细填写会员资料。<br><br>
+								4. 	最终解释权归央美术馆所有。<br>
+							</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		<!-- div class="card-form card">
+			<div class="am-g am-container m-white-container">
+				<div class="am-u-lg-12 am-u-md-12 am-u-sm-12">
+					<div class="am-u-lg-10 am-u-md-10 am-u-sm-10 am-u-lg-offset-1 am-u-md-offset-1 am-u-sm-offset-1">
+						<div class="owntop">
+							<div class="ownline"></div>
+							<h4 class="m-card-title">Yang Art Museum Membership Application</h4>
+							<h4 class="m-card-text">央美术馆会员申请表</h4>
+							<form class="am-form">
+								<fieldset>
+									<div class="am-form-group am-u-lg-4 am-u-md-4 am-u-sm-4">
+										<label>会员卡类型*</label>
+										<input type="text" class=" " />
+									</div>
+								</fieldset>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div -->
+		
+		<footer class="m-footer">
+			<div class="pic-box">
+				<div class="am-container">
+					<hr style="border: 1px solid #d6d6d6"/>
+					<div class="am-g">
+						<div class="am-u-lg-8 am-u-md-8 am-u-sm-12" style="border-right: 1px solid #d6d6d6">
+							<p>北京市朝阳区朝阳公园路6号蓝色港湾国际商区14号楼3层</p>
+							<p>3rd Floor,Building 14,No.6 Chaoyang Road, Chaoyang District,Beijing,China</p>
+						</div>
+						<div class="am-u-lg-4 am-u-md-4 am-u-sm-12">
+							<div class="am-u-lg-6 am-u-md-6 am-u-sm-12">
+								<p>010-59056678</p>
+								<p>lnfo@yangmuseum.org</p>
+							</div>
+							<div class="am-u-lg-6 am-u-md-6 am-u-sm-12 fonticonStyle">
+								<span class="iconfont icon-facebook1"></span>
+								<span class="iconfont icon-QQ" ></span>
+								<span class="iconfont icon-weibo" ></span>
+								<span class="iconfont icon-wechat"></span>
+							</div>
+						</div>
+					</div>
+					<hr style="border: 1px solid #d6d6d6"/>
+				</div>
+				<div class="am-container">
+					<div class="am-g">
+						<div class="am-u-lg-8 am-u-md-8 am-u-sm-12">
+							<p>© 2016 YAM ALL Rights Reserved.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+		<div data-am-widget="gotop" class="top am-gotop am-gotop-fixed">
+			<a href="#top">
+				<i class="am-gotop-icon am-icon-chevron-up"></i>
+			</a>
+		</div>
+		
+		<!--[if (gte IE 9)|!(IE)]><!-->
+		<script src="js/jquery-1.12.4.js"></script>
+		<!--<![endif]
+		[if lte IE 8 ]>
+		<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+		<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+		<script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+		<![endif]-->
+
+		<script src="js/amazeui.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('.am-slider').flexslider();
+			})
+
+		</script>
+
+	</body>
+
+</html>
