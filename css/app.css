@@ -33,19 +33,19 @@ header {
 	}
 }
 /*当页面大于2000px 时，大屏幕，主要是PC 端*/
-/*@media only screen and (min-width:2000px) {
+@media only screen and (min-width:2000px) {
 	.am-container {
 		min-width: 1440px;
 		max-width: 1920px;
 	}
-}*/
+}
 /*媒体查询*/
 /*当页面大于1200px 时，大屏幕，主要是PC 端*/
 @media (min-width: 1025px) {
-	/*.am-container {
+	.am-container {
 		min-width: 1440px;
 		max-width: 1920px;
-	}*/
+	}
 	.leftRight {
 		padding-right: 0;
 	}
