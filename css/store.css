@@ -5,8 +5,8 @@
     -webkit-background-size:cover;
     background-size: cover;
     color: #fff;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 12.6%;
+    margin-right: 13.5%;
     margin-top: 4%;
 }
 .storebanner_1 .am-container{
@@ -48,16 +48,15 @@
 }
 /*storebanner_1 end*/
 
-
 /*storebanner_2 start*/
 .storebanner_2{
     height: 680px;
-    background: url(../img/14STORE1.png) no-repeat center;
+    background: url(../img/14STORE1Copy2.png) no-repeat center;
     -webkit-background-size:cover;
     background-size: cover;
     color: #fff;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 12.6%;
+    margin-right: 13.5%;
     margin-top: 4%;
 }
 .storebanner_2 .am-container{
@@ -98,3 +97,154 @@
     }
 }
 /*storebanner_2 end*/
+
+
+/*storebanner_3 start*/
+.storebanner_3{
+    height: 680px;
+    background: url(../img/14STORE1Copy3.png) no-repeat center;
+    -webkit-background-size:cover;
+    background-size: cover;
+    color: #fff;
+    margin-left: 12.6%;
+    margin-right: 13.5%;
+    margin-top: 4%;
+}
+.storebanner_2 .am-container{
+    padding-top: 300px;
+}
+.storebanner_3 .am-container h2{
+    font:normal 40px/50px "微软雅黑";
+    letter-spacing:5px;
+    font-weight: 400;
+    cursor: pointer;
+}
+@media only screen and (max-width: 640px) {
+    .storebanner_3 .am-container h2{
+        font-size:30px;
+        letter-spacing:5px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .storebanner_3 .am-container h2{
+        font-size:20px;
+        letter-spacing:5px;
+    }
+}
+.storebanner_3 .am-container p{
+    font:normal 30px/38px "微软雅黑";
+    letter-spacing:5px;
+}
+@media only screen and (max-width: 640px) {
+    .storebanner_3 .am-container p{
+        font:normal 22px/30px "微软雅黑";
+        letter-spacing:5px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .storebanner_3 .am-container p{
+        font:normal 16px/24px "微软雅黑";
+        letter-spacing:5px;
+    }
+}
+/*storebanner_3 end*/
+
+/*storebanner_4 start*/
+.storebanner_4{
+    height: 680px;
+    background: url(../img/14STORE1Copy4.png) no-repeat center;
+    -webkit-background-size:cover;
+    background-size: cover;
+    color: #fff;
+    margin-left: 12.6%;
+    margin-right: 13.5%;
+    margin-top: 4%;
+}
+.storebanner_4 .am-container{
+    padding-top: 300px;
+}
+.storebanner_4 .am-container h2{
+    font:normal 40px/50px "微软雅黑";
+    letter-spacing:5px;
+    font-weight: 400;
+    cursor: pointer;
+}
+@media only screen and (max-width: 640px) {
+    .storebanner_4 .am-container h2{
+        font-size:30px;
+        letter-spacing:5px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .storebanner_4 .am-container h2{
+        font-size:20px;
+        letter-spacing:5px;
+    }
+}
+.storebanner_4 .am-container p{
+    font:normal 30px/38px "微软雅黑";
+    letter-spacing:5px;
+}
+@media only screen and (max-width: 640px) {
+    .storebanner_4 .am-container p{
+        font:normal 22px/30px "微软雅黑";
+        letter-spacing:5px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .storebanner_4 .am-container p{
+        font:normal 16px/24px "微软雅黑";
+        letter-spacing:5px;
+    }
+}
+/*storebanner_4 end*/
+
+/*storebanner_5 start*/
+.storebanner_5{
+    height: 680px;
+    background: url(../img/14STORE1Copy5.png) no-repeat center;
+    -webkit-background-size:cover;
+    background-size: cover;
+    color: #fff;
+    margin-left: 12.6%;
+    margin-right: 13.5%;
+    margin-top: 4%;
+}
+.storebanner_5 .am-container{
+    padding-top: 300px;
+}
+.storebanner_5 .am-container h2{
+    font:normal 40px/50px "微软雅黑";
+    letter-spacing:5px;
+    font-weight: 400;
+    cursor: pointer;
+}
+@media only screen and (max-width: 640px) {
+    .storebanner_5 .am-container h2{
+        font-size:30px;
+        letter-spacing:5px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .storebanner_5 .am-container h2{
+        font-size:20px;
+        letter-spacing:5px;
+    }
+}
+.storebanner_5 .am-container p{
+    font:normal 30px/38px "微软雅黑";
+    letter-spacing:5px;
+}
+@media only screen and (max-width: 640px) {
+    .storebanner_5 .am-container p{
+        font:normal 22px/30px "微软雅黑";
+        letter-spacing:5px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .storebanner_5 .am-container p{
+        font:normal 16px/24px "微软雅黑";
+        letter-spacing:5px;
+    }
+}
+/*storebanner_5 end*/
