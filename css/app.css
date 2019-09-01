@@ -176,10 +176,17 @@ ul.am-dropdown-content>li>a:hover {
 	background-size: cover;
 	color: #fff;
 }
+.bigbannerthree{
+	height: 1200px;
+	background: url(../img/05-03XQ1.png) no-repeat center;
+	-webkit-background-size:cover;
+	background-size: cover;
+	color: #fff;
+}
 .bigbanner .am-container{
 	padding-top: 200px;
 }
-.bigbannerOne .am-container{
+.bigbannerOne .am-container, .bigbannerthree .am-container{
 	padding-top:6%;
 
 }

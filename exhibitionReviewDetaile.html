@@ -1,0 +1,334 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title></title>
+
+    <!--移动优先-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- 渲染引擎 只对 360 浏览器 6.5+ 有效-->
+    <meta name="renderer" content="webkit">
+    <!-- 如果你的网站不想被剥去外衣、往赤裸的身体上贴广告，就加上下面的代码（百度会为你的网页进行转码）-->
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="icon" type="image/png" href="i/favicon.png">
+    <!-- Add to homescreen for Chrome on Android 添加到Android上的Chrome主屏幕（网站开启对web app程序的支持）-->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="i/app-icon72x72@2x.png">
+    <!-- Add to homescreen for Safari on iOS 添加到桌面的iOS Safari  网站开启对web app程序的支持-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+    <link rel="apple-touch-icon-precomposed" href="i/app-icon72x72@2x.png">
+    <!-- Tile icon for Win8 (144x144 + tile color) 添加到主屏后-设置状态栏的背景颜色(win8)-->
+    <meta name="msapplication-TileImage" content="i/app-icon72x72@2x.png">
+    <meta name="msapplication-TileColor" content="#0e90d2">
+
+    <!--引用-->
+    <link rel="stylesheet" href="css/amazeui.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+</head>
+<body>
+<header>
+    <!--导航-->
+    <div class="am-topbar am-show-md-up" style="border-bottom: 2px solid #0d121b">
+        <div class="am-container">
+            <h1 class="am-topbar-brand ownhome" style="border-right: 2px solid #0d121b">
+                <img src="img/Page.png" style="cursor: pointer">
+            </h1>
+            <div class="am-topbar-left">
+                <ul class="am-nav am-nav-pills ownlinght">
+                    <!--下拉菜单-->
+                    <li class="am-dropdown ownactive" data-am-dropdown>
+                        <a class="am-dropdown-toggle" data-am-dropdown-toggle href="#">
+                            展览
+                        </a>
+                        <ul class="am-dropdown-content">
+                            <li>
+                                <a href="exhibitionNow.html">当前展览</a>
+                            </li>
+                            <li class="ownactiveCopy">
+                                <a href="#">展览回顾</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="am-dropdown" data-am-dropdown>
+                        <a class="am-dropdown-toggle" data-am-dropdown-toggle href="#">
+                            公共项目
+                        </a>
+                        <ul class="am-dropdown-content">
+                            <li>
+                                <a href="#">活动回顾</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="am-dropdown" data-am-dropdown>
+                        <a class="am-dropdown-toggle" data-am-dropdown-toggle href="#">
+                            关于我们
+                        </a>
+                        <ul class="am-dropdown-content">
+                            <li>
+                                <a href="memberIntroduce.html">会员介绍</a>
+                            </li>
+                            <li>
+                                <a href="#">会员制度</a>
+                            </li>
+                            <li>
+                                <a href="#">会员表格</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="yamStore.html">YAM Store</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--菜单-->
+    <div data-am-widget="header" class="am-header  am-show-sm-only">
+        <!--<div class="am-header-right am-header-nav">
+            <a href="#right-link" class="">
+                <i class="am-header-icon am-icon-home"></i>
+                <span class="am-header-nav-title">首页</span>
+            </a>
+        </div>-->
+        <h1 class="am-header-title"></h1>
+        <div class="am-header-left am-header-nav">
+            <a href="#left-link" class="" data-am-offcanvas="{target: '#r-nav',effect: 'push'}">
+                <i class="am-header-icon am-icon-bars"></i>
+                <span class="am-header-nav-title">菜单</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- 侧边栏内容 -->
+    <div id="r-nav" class="am-offcanvas">
+        <div class="am-offcanvas-bar">
+            <ul class="am-offcanvas-content am-nav ownlinght">
+                <!--下拉菜单-->
+                <li class="am-dropdown" data-am-dropdown>
+                    <a class="am-dropdown-toggle" data-am-dropdown-toggle href="#">
+                        展览
+                    </a>
+                    <ul class="am-dropdown-content">
+                        <li>
+                            <a href="showPresent.html">当前展览</a>
+                        </li>
+                        <li>
+                            <a href="#">展览回顾</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="am-dropdown" data-am-dropdown>
+                    <a class="am-dropdown-toggle" data-am-dropdown-toggle href="#">
+                        公共项目
+                    </a>
+                    <ul class="am-dropdown-content">
+                        <li>
+                            <a href="#">活动回顾</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="am-dropdown" data-am-dropdown>
+                    <a class="am-dropdown-toggle" data-am-dropdown-toggle href="#">
+                        关于我们
+                    </a>
+                    <ul class="am-dropdown-content">
+                        <li>
+                            <a href="memberIntroduce.html">会员介绍</a>
+                        </li>
+                        <li>
+                            <a href="#">会员制度</a>
+                        </li>
+                        <li>
+                            <a href="#">会员申请</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="yamStore.html">YAM Store</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<!--banner-->
+<div class="doc-example">
+    <div class="bigbannerthree">
+        <div class="am-container">
+            <div class="am-g">
+                <div class="am-u-lg-12 am-u-md-12 am-u-sm-12">
+                    <h1>Past</h1>
+                </div>
+            </div>
+            <div class="am-g">
+                <div class="am-u-lg-4 am-u-md-12 am-u-sm-12 leftRight ownimgHeight">
+                    <div style="height: 300px;">
+                        <h2>展览回顾</h2>
+                        <div style="margin-top: 15%;color: #f3f3f3">
+                            <p>周一闭馆</p>
+                            <p>周二至周日 10:00 - 18:00 (17:30停止入馆)</p>
+                        </div>
+                        <div style="margin-top: 8%;color: #f3f3f3">
+                            <div class="ownlineTwo"></div>
+                            <p>联系电话: 010-59056678</p>
+                        </div>
+                    </div>
+                    <div style="background: #fff;padding: 20px 40px;height: 650px;color: #000;">
+                        <h2>没有糖果来捣乱</h2>
+                        <h3>策展人:孙冬冬</h3>
+                        <div style="font-weight: 600;margin-top: 20px;">
+                            <h2>
+                                Our paintings<br>
+                                Curator:Sun Dongdong
+                            </h2>
+                        </div>
+                        <div style=" margin-top: 20px;">
+                            <p> 2016.11.12 - 2017.2.12</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="am-u-lg-8 am-u-md-12 am-u-sm-12 rightLeft ownimgHeight">
+                    <img src="img/05-03XQ2.png" class="am-img-responsive ownAutoImg" style="" >
+                </div>
+                <div class="am-u-lg-8 am-u-md-12 am-u-sm-12 leftRight ownimgHeight">
+                    <img src="img/05-03XQ4.png" class="am-img-responsive ownAutoImg" >
+                </div>
+                <div class="am-u-lg-4 am-u-md-12 am-u-sm-12 rightLeft ownimgHeight">
+                    <img src="img/05-03XQ5.png" class="am-img-responsive ownAutoImgTwo" style="display: inline">
+                    <img src="img/05-03XQ3.png" class="am-img-responsive ownAutoImgTwo" style="display: inline">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="pic-box" style="margin-top: 32%;background: #f6f6f6;">
+    <div class="am-container">
+        <div class="am-g" style="margin-top: 50px;">
+            <div class="am-u-lg-12 am-u-md-12 am-u-sm-12">
+                <div class="ownline"></div>
+            </div>
+        </div>
+        <div class="am-g" style="margin-bottom: 50px;">
+            <div class="am-u-lg-2 am-u-md-2 am-u-sm-12">
+                <h3>Participating<br>Artisits</h3>
+                <p>参展艺术家</p>
+            </div>
+            <div class="am-u-lg-8 am-u-md-8 am-u-sm-12" style="font-size: 12px">
+                <div >
+                    <p>
+                        卜镝、陈飞、陈文波、段建宇、高露迪、龚剑、贾霭力、简策、刘野、欧阳春、仇晓飞、盛天泓、王兴伟、王郁洋、王音、
+                        温凌、闫冰、烟囱、赵刚、周轶伦。
+                    </p>
+                </div>
+            </div>
+            <div class="am-u-lg-2 am-u-md-2 am-u-sm-12"></div>
+        </div>
+        <div class="am-g" style="margin-top: 50px;">
+            <div class="am-u-lg-12 am-u-md-12 am-u-sm-12">
+                <div class="ownline"></div>
+            </div>
+        </div>
+        <div class="am-g" style="margin-bottom: 50px;">
+            <div class="am-u-lg-2 am-u-md-2 am-u-sm-12">
+                <h3>exhibition<br>Description</h3>
+                <p>展览说明</p>
+            </div>
+            <div class="am-u-lg-8 am-u-md-8 am-u-sm-12" style="font-size: 12px">
+                <div >
+                    <p>
+                        这是一个从“认同”出发的关于绘画的实验项目，首要参与绘画项目的20位画家的画作，或曾在形式上，或曾在
+                        观念上、或曾在思想上、与作为观众的策展人有过艺术上的共鸣——这种源于观看的体验其实也存在与画家之间。虽然，我知道
+                        绘画处在一种“后历史”的语境之中，但这并不意味着绘画失去了实践的动力，相反地，当画家不再纠结于美术史的线性推进
+                        时,绘画即可以是一种反身于视觉历史的知识系统，同时作为一种艺术媒介，仍旧可以呈现画家对于世界的看法，看似属于个体
+                        的实践，实际上都在等待或者回应他们各自的知音。之所以邀请画家创作一幅他们心目中“我们的绘画”，就是为了在这种集合关系
+                        中，重新思考绘画作为实线的意义，所以整个项目不是一次展览，而是一种政治学意义上的实验行动。
+                    </p>
+                </div>
+            </div>
+            <div class="am-u-lg-2 am-u-md-2 am-u-sm-12"></div>
+        </div>
+    </div>
+</div>
+<footer style="background: #f6f6f6;margin-top: 0">
+    <div class="pic-box">
+        <div class="am-container">
+            <hr style="border: 1px solid #d6d6d6"/>
+            <div class="am-g">
+                <div class="am-u-lg-8 am-u-md-8 am-u-sm-12" style="border-right: 1px solid #d6d6d6">
+                    <p>北京市朝阳区朝阳公园路6号蓝色港湾国际商区14号楼3层</p>
+                    <p>3rd Floor,Building 14,No.6 Chaoyang Road, Chaoyang District,Beijing,China</p>
+                </div>
+                <div class="am-u-lg-4 am-u-md-4 am-u-sm-12">
+                    <div class="am-u-lg-6 am-u-md-6 am-u-sm-12">
+                        <p>010-59056678</p>
+                        <p>lnfo@yangmuseum.org</p>
+                    </div>
+                    <div class="am-u-lg-6 am-u-md-6 am-u-sm-12 fonticonStyle">
+                        <span class="iconfont icon-facebook1"></span>
+                        <span class="iconfont icon-QQ" ></span>
+                        <span class="iconfont icon-weibo" ></span>
+                        <span class="iconfont icon-wechat"></span>
+                    </div>
+                </div>
+            </div>
+            <hr style="border: 1px solid #d6d6d6"/>
+        </div>
+        <div class="am-container">
+            <div class="am-g">
+                <div class="am-u-lg-8 am-u-md-8 am-u-sm-12">
+                    <p>© 2016 YAM ALL Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div data-am-widget="gotop" class="top am-gotop am-gotop-fixed">
+    <a href="#top">
+        <i class="am-gotop-icon am-icon-chevron-up"></i>
+    </a>
+</div>
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="js/jquery-1.12.4.js"></script>
+<!--<![endif]
+[if lte IE 8 ]>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+
+<script src="js/amazeui.min.js"></script>
+<script>
+    $(document).ready(function(){
+        //轮播初始化
+        $('.am-slider').flexslider();
+
+        //激活效果切换
+        $(".am-nav>li").click(function () {
+            $(this).addClass("ownactive").siblings(".ownactive").removeClass("ownactive");
+            $(this).siblings("li").children("ul").children("li").removeClass("ownactiveCopy");
+        });
+        //子菜单激活切换
+        $(".am-nav>li li").click(function () {
+            $(this).addClass("ownactiveCopy").siblings(".ownactiveCopy").removeClass("ownactiveCopy");
+            $(this).addClass("ownactiveCopy").parents("li").siblings("li").children("ul").children("li").removeClass("ownactiveCopy");
+        });
+        $('.ownhome').click(function(){
+            window.location="index.html";
+        })
+
+    })
+
+</script>
+
+</body>
+
+</html>
