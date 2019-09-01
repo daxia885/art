@@ -156,7 +156,7 @@ ul.am-dropdown-content>li>a:hover {
 
 /*banner start*/
 .bigbanner{
-	height: 500px;
+	/*height: 500px;*/
 	background: url(../img/shouye1.jpg) no-repeat center;
   	-webkit-background-size:cover;
   	background-size: cover;
@@ -177,7 +177,7 @@ ul.am-dropdown-content>li>a:hover {
 	color: #fff;
 }
 .bigbannerthree{
-	height: 1200px;
+	/*height: 1200px;*/
 	background: url(../img/05-03XQ1.png) no-repeat center;
 	-webkit-background-size:cover;
 	background-size: cover;
@@ -194,7 +194,7 @@ ul.am-dropdown-content>li>a:hover {
 	padding-top: 200px;
 }
 .bigbannerOne .am-container, .bigbannerthree .am-container, .bigbannerfour .am-container{
-	padding-top:6%;
+	padding-top: 100px;
 
 }
 .bigbanner .am-container h2{
@@ -245,7 +245,7 @@ ul.am-dropdown-content>li>a:hover {
 
 /*pic-box*/
 .pic-box{
-	position: relative;
+	/*position: relative;*/
 	/*padding-top: 40px;*/
 	/*padding-bottom: 40px;*/
 }
@@ -469,6 +469,9 @@ footer p{
 }
 .ownLi li {
 	padding:15px;
+}
+.ownModelImg{
+    width: 100% !important
 }
 
 
