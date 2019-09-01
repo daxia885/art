@@ -1,0 +1,22 @@
+/*首页*/
+.Mobilebigbanner {
+    height: 200px;
+    background: url(../img/01HOME1.png) no-repeat center;
+    -webkit-background-size:cover;
+    background-size: cover;
+    color: #fff;
+}
+.Mobilebigbanner .box {
+    padding-top: 160px;
+    padding-bottom: 20px;
+    height:auto;
+    margin: 0 20px;
+}
+.Mobilebigbanner .box .am-container{
+    padding-top: 20px;
+    background: #fff;
+}
+.Mobilebigbanner .am-container > .am-g {
+    margin-right: 0;
+    margin-left: 0;
+}

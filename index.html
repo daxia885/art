@@ -30,6 +30,7 @@
 		<link rel="stylesheet" href="css/amazeui.min.css">
 		<link rel="stylesheet" href="css/app.css">
 		<link rel="stylesheet" href="css/iconfont.css">
+		<link rel="stylesheet" href="css/mobileCss.css">
 	</head>
 	<body>
 		<header>
@@ -91,12 +92,11 @@
 
 			<!--菜单-->
 			<div data-am-widget="header" class="am-header  am-show-sm-only">
-				<!--<div class="am-header-right am-header-nav">
+				<div class="am-header-right am-header-nav">
 					<a href="#right-link" class="">
-						<i class="am-header-icon am-icon-home"></i>
-						<span class="am-header-nav-title">首页</span>
+						<img src="img/Page.png" class="">
 					</a>
-				</div>-->
+				</div>
 				<h1 class="am-header-title"></h1>
 				<div class="am-header-left am-header-nav">
 					<a href="#left-link" class="" data-am-offcanvas="{target: '#r-nav',effect: 'push'}">
@@ -158,367 +158,623 @@
 			</div>
 		</header>
 
-		<!--banner-->
-		<div class="doc-example">
-			<div class="am-slider am-slider-default">
-				<div class="am-viewport" style="overflow: hidden; position: relative;">
-					<ul class="am-slides"
-						style="width: 1200%; transition-duration: 0s; transform: translate3d(-682px, 0px, 0px);">
-						<li class="clone" aria-hidden="true" style="float: left; display: block; width: 682px;">
-							<div class="bigbanner">
-								<div class="am-container">
-									<div class="am-g">
-										<div class="am-u-lg-12 am-u-md-12 am-u-sm-12">
-											<h2 class="am-text-center" >另一种风景</h2>
-											<p class="am-text-center" >策展人：JeremieThircuir</p>
-											<h3 class="am-text-center">2016.1.20 - 2016.3.30</h3>
+		<!--非手机端-->
+		<div class="am-hide-sm-only">
+			<div class="doc-example">
+				<div class="am-slider am-slider-default">
+					<div class="am-viewport" style="overflow: hidden; position: relative;">
+						<ul class="am-slides"
+							style="width: 1200%; transition-duration: 0s; transform: translate3d(-682px, 0px, 0px);">
+							<li class="clone" aria-hidden="true" style="float: left; display: block; width: 682px;">
+								<div class="bigbanner">
+									<div class="am-container">
+										<div class="am-g">
+											<div class="am-u-lg-12 am-u-md-12 am-u-sm-12">
+												<h2 class="am-text-center" >另一种风景</h2>
+												<p class="am-text-center" >策展人：JeremieThircuir</p>
+												<h3 class="am-text-center">2016.1.20 - 2016.3.30</h3>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="pic-box">
+				<div class="am-container">
+					<div class="am-g">
+						<div class="am-u-lg-4 am-u-md-12 am-u-sm-12" style="border-right: 1px solid #d6d6d6">
+							<div class="am-g">
+								<div class="am-u-lg-6 am-u-md-6">
+									<img src="img/current.png" class="am-img-responsive" style="width: 100%;" >
+								</div>
+								<div class="am-u-lg-6 am-u-md-6">
+									<div class="owntop">
+										<div class="ownline"></div>
+										<h3 class="ownTitle">Current</h3>
+										<h3 class="ownTitle">当前展览</h3>
+										<h4 class="owntext">另一种风景<br>策展人：JeremieThircuir</h4>
+										<h4 class="owntext">2016.1.20 - 2016.3.30</h4>
+									</div>
+								</div>
+							</div>
+							<div class="am-g">
+								<div class="am-u-lg-6 am-u-md-12 am-margin-top" style="float: left">
+									<button type="button" class="am-center am-btn-xs am-btn" style="border:1px solid #000;background-color:transparent;">
+										<em class="fontDetails">view details</em>
+									</button>
+								</div>
+							</div>
+						</div>
+						<div class="am-u-lg-4 am-u-md-12 am-u-sm-12" style="border-right: 1px solid #d6d6d6">
+							<div class="am-g">
+								<div class="am-u-lg-6 am-u-md-6">
+									<img src="img/upcoming.png" class="am-img-responsive" style="width: 100%;" >
+								</div>
+								<div class="am-u-lg-6 am-u-md-6">
+									<div class="owntop">
+										<div class="ownline"></div>
+										<h3 class="ownTitle">Upcoming</h3>
+										<h3 class="ownTitle">展览预告</h3>
+										<h4 class="owntext">"我们的绘画"<br>策展人：孙冬冬</h4>
+										<h4 class="owntext">2016.1.12 - 2016.6.06</h4>
+									</div>
+								</div>
+							</div>
+							<div class="am-g">
+								<div class="am-u-lg-6 am-u-md-12 am-margin-top" style="float: left">
+									<button type="button" class="am-center am-btn-xs am-btn" style="border:1px solid #000;background-color:transparent;">
+										<em class="fontDetails">view details</em>
+									</button>
+								</div>
+							</div>
+
+						</div>
+						<div class="am-u-lg-4 am-u-md-12 am-u-sm-12">
+							<div class="am-g">
+								<div class="am-u-lg-6 am-u-md-6">
+									<img src="img/03-02DQJH2 Copy.png" class="am-img-responsive" style="width: 100%;" >
+								</div>
+								<div class="am-u-lg-6 am-u-md-6" style="height: 106px;">
+									<div class="owntop">
+										<div class="ownline"></div>
+										<h3 class="ownTitle">Event</h3>
+										<h3 class="ownTitle">Application</h3>
+										<h4 class="owntext">活动申办<br></h4>
+									</div>
+								</div>
+							</div>
+							<div class="am-g">
+								<div class="am-u-lg-6 am-u-md-12 am-margin-top" style="float: left">
+									<button type="button" class="am-center am-btn-xs am-btn" style="border:1px solid #000;background-color:transparent;">
+										<em class="fontDetails">view details</em>
+									</button>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<hr style="border: 1px solid #d6d6d6"/>
+				</div>
+			</div>
+			<div class="pic-box">
+				<div class="am-container">
+					<div class="am-g">
+						<div class="am-u-lg-6 am-u-md-6 am-u-sm-6 am-text-left" >
+							<span  style="font-weight: 700">展览回顾</span>
+						</div>
+						<div class="am-u-lg-6 am-u-md-6 am-u-sm-6 am-text-right" style="padding: 10px;">
+							<span class=" am-kai" style="font-weight: 700"><em class="ownfont">view all</em></span>
+						</div>
+					</div>
+					<div class="am-g">
+						<div class="am-u-lg-3 am-u-md-3 am-u-sm-3" >
+							<img src="img/05-03XQ4.png" class="am-img-responsive" style="width: 100%;" >
+							<div class="owntop ownpcTop">
+								<h3 class="ownTitle">博洛尼亚插画展</h3>
+								<h4 class="owntext">巧遇全球最美插画<br></h4>
+								<h4 class="owntext">2016.5.31 - 2016.7.27</h4>
+							</div>
+							<button type="button" class="am-left am-btn-xs am-btn" style="border:1px solid #000;background-color:transparent;margin-top: 10px">
+								<em class="fontDetails">view details</em>
+							</button>
+						</div>
+						<div class="am-u-lg-3 am-u-md-3 am-u-sm-3" >
+							<img src="img/05-01PAST2.png" class="am-img-responsive" style="width: 100%;" >
+							<div class="owntop ownpcTop">
+								<h3 class="ownTitle">博洛尼亚插画展</h3>
+								<h4 class="owntext">巧遇全球最美插画<br></h4>
+								<h4 class="owntext">2016.5.31 - 2016.7.27</h4>
+							</div>
+							<button type="button" class="am-left am-btn-xs am-btn" style="border:1px solid #000;background-color:transparent;margin-top: 10px">
+								<em class="fontDetails">view details</em>
+							</button>
+						</div>
+						<div class="am-u-lg-3 am-u-md-3 am-u-sm-3" >
+							<img src="img/05-01ZLHG2.png" class="am-img-responsive" style="width: 100%;" >
+							<div class="owntop ownpcTop">
+								<h3 class="ownTitle">博洛尼亚插画展</h3>
+								<h4 class="owntext">巧遇全球最美插画<br></h4>
+								<h4 class="owntext">2016.5.31 - 2016.7.27</h4>
+							</div>
+							<button type="button" class="am-left am-btn-xs am-btn" style="border:1px solid #000;background-color:transparent;margin-top: 10px;">
+								<em class="fontDetails">view details</em>
+							</button>
+						</div>
+						<div class="am-u-lg-3 am-u-md-3 am-u-sm-3" >
+							<img src="img/05-01ZLHG5.png" class="am-img-responsive" style="width: 100%;" >
+							<div class="owntop ownpcTop">
+								<h3 class="ownTitle">博洛尼亚插画展</h3>
+								<h4 class="owntext">巧遇全球最美插画<br></h4>
+								<h4 class="owntext">2016.5.31 - 2016.7.27</h4>
+							</div>
+							<button type="button" class="am-left am-btn-xs am-btn" style="border:1px solid #000;background-color:transparent;margin-top: 10px">
+								<em class="fontDetails">view details</em>
+							</button>
+						</div>
+					</div>
+					<hr style="border: 1px solid #d6d6d6"/>
+				</div>
+			</div>
+			<div class="pic-box">
+				<div class="am-container">
+					<div class="am-g">
+						<div class="am-u-lg-12 am-u-md-12 am-u-sm-12 am-text-left" >
+							<span  style="font-weight: 700">YAM Learn</span>
+						</div>
+					</div>
+					<div class="am-g" style="margin-top: 20px;">
+						<div class="am-u-lg-8 am-u-md-8" style="border-right: 1px solid #d6d6d6;padding-left: 0;">
+							<div class="am-u-lg-6 am-u-md-6">
+								<img src="img/05-01ZLHG3 Copy.png" class="am-img-responsive" style="width: 100%;" >
+							</div>
+							<div class="am-u-lg-6 am-u-md-6">
+								<div class="owntop ownpcTop">
+									<div class="ownline"></div>
+									<h4 style="font-family: 黑体">活动招募</h4>
+									<h2>制扇至美</h2>
+									<h4>
+										手绘团扇儿童艺术工作坊<br>
+									</h4>
+									<p>
+										团扇又称执扇、合欢扇得名于西汉班婕妤的诗句“裁为合团扇作、花卉、植物绘进扇子中让生活中的一事一物都变得灵动有温度...
+									</p>
+									<h4>2016.11.12 / 15:00-17:00</h4>
+								</div>
+								<button type="button" class="am-left am-btn-xs am-btn" style="border:1px solid #000;background-color:transparent;margin-top: 20px">
+									<em class="fontDetails">view details</em>
+								</button>
+							</div>
+						</div>
+						<div class="am-u-lg-4 am-u-md-4" style="padding: 10px;">
+							<div class="am-container">
+								<div class="am-g">
+									<div class="am-u-lg-6 am-u-md-6 am-u-sm-6 am-text-left" >
+										<div class="ownline"></div>
+										<h4 style="font-family: 黑体">活动回顾</h4>
+									</div>
+									<div class="am-u-lg-6 am-u-md-6 am-u-sm-6 am-text-right">
+										<span style="font-weight: 700"><em class="ownfont">view all</em></span>
+									</div>
+								</div>
+								<div class="am-g">
+									<div class="am-slider am-slider-default ownPoint" style="box-shadow:none;">
+										<div class="am-viewport" style="overflow: hidden; position: relative;">
+											<ul class="am-slides"
+												style="width: 1200%; transition-duration: 0s; transform: translate3d(-682px, 0px, 0px);">
+												<li class="clone" aria-hidden="true" style="float: left; display: block; width: 100%;">
+													<img src="img/10KID1.png" class="am-img-responsive" style="width: 100%;" >
+													<div class="owntop ownpcTop">
+														<h4>制扇至美</h4>
+														<h5 class="owntext">巧遇全球最美插画<br></h5>
+														<h5 class="owntext">2016.11.12 / 15:00-17:00</h5>
+													</div>
+												</li>
+												<li class="clone" aria-hidden="true" style="float: left; display: block; width: 682px;">
+													<img src="img/10KID1.png" class="am-img-responsive" style="width: 100%;" >
+													<div class="owntop ownpcTop">
+														<h3>制扇至美</h3>
+														<h4 class="owntext">巧遇全球最美插画<br></h4>
+														<h4 class="owntext">2016.11.12 / 15:00-17:00</h4>
+													</div>
+												</li>
+											</ul>
 										</div>
 									</div>
 								</div>
 							</div>
-						</li>
-					</ul>
+						</div>
+					</div>
+					<hr style="border: 1px solid #d6d6d6;margin-top: 20px ;"/>
 				</div>
 			</div>
-		</div>
-		<div class="pic-box">
-			<div class="am-container">
-				<div class="am-g">
-					<div class="am-u-lg-4 am-u-md-12 am-u-sm-12" style="border-right: 1px solid #d6d6d6">
-						<div class="am-g">
-							<div class="am-u-lg-6 am-u-md-6">
-								<img src="img/current.png" class="am-img-responsive" style="width: 100%;" >
+			<div class="pic-box">
+				<div class="am-container">
+					<div class="am-g">
+						<div class="am-u-lg-6 am-u-md-6 am-u-sm-6" style="padding-left: 0">
+							<div class="am-u-lg-6 am-u-md-6 am-u-sm-6 am-text-left" >
+								<span  style="font-weight: 700">最新动态</span>
 							</div>
-							<div class="am-u-lg-6 am-u-md-6">
-								<div class="owntop">
-									<div class="ownline"></div>
-									<h3 class="ownTitle">Current</h3>
-									<h3 class="ownTitle">当前展览</h3>
-									<h4 class="owntext">另一种风景<br>策展人：JeremieThircuir</h4>
-									<h4 class="owntext">2016.1.20 - 2016.3.30</h4>
-								</div>
+							<div class="am-u-lg-6 am-u-md-6 am-u-sm-6 am-text-right" >
+								<span class=" am-kai" style="font-weight: 700"><em class="ownfont">view all</em></span>
 							</div>
-						</div>
-						<div class="am-g">
-							<div class="am-u-lg-6 am-u-md-12 am-margin-top" style="float: left">
-								<button type="button" class="am-center am-btn-xs am-btn" style="border:1px solid #000;background-color:transparent;">
-									<em class="fontDetails">view details</em>
-								</button>
-							</div>
-						</div>
-					</div>
-					<div class="am-u-lg-4 am-u-md-12 am-u-sm-12" style="border-right: 1px solid #d6d6d6">
-						<div class="am-g">
-							<div class="am-u-lg-6 am-u-md-6">
-								<img src="img/upcoming.png" class="am-img-responsive" style="width: 100%;" >
-							</div>
-							<div class="am-u-lg-6 am-u-md-6">
-								<div class="owntop">
-									<div class="ownline"></div>
-									<h3 class="ownTitle">Upcoming</h3>
-									<h3 class="ownTitle">展览预告</h3>
-									<h4 class="owntext">"我们的绘画"<br>策展人：孙冬冬</h4>
-									<h4 class="owntext">2016.1.12 - 2016.6.06</h4>
-								</div>
-							</div>
-						</div>
-						<div class="am-g">
-							<div class="am-u-lg-6 am-u-md-12 am-margin-top" style="float: left">
-								<button type="button" class="am-center am-btn-xs am-btn" style="border:1px solid #000;background-color:transparent;">
-									<em class="fontDetails">view details</em>
-								</button>
-							</div>
-						</div>
-
-					</div>
-					<div class="am-u-lg-4 am-u-md-12 am-u-sm-12">
-						<div class="am-g">
-							<div class="am-u-lg-6 am-u-md-6">
-								<img src="img/03-02DQJH2 Copy.png" class="am-img-responsive" style="width: 100%;" >
-							</div>
-							<div class="am-u-lg-6 am-u-md-6" style="height: 106px;">
-								<div class="owntop">
-									<div class="ownline"></div>
-									<h3 class="ownTitle">Event</h3>
-									<h3 class="ownTitle">Application</h3>
-									<h4 class="owntext">活动申办<br></h4>
-								</div>
-							</div>
-						</div>
-						<div class="am-g">
-							<div class="am-u-lg-6 am-u-md-12 am-margin-top" style="float: left">
-								<button type="button" class="am-center am-btn-xs am-btn" style="border:1px solid #000;background-color:transparent;">
-									<em class="fontDetails">view details</em>
-								</button>
-							</div>
-						</div>
-
-					</div>
-				</div>
-				<hr style="border: 1px solid #d6d6d6"/>
-			</div>
-		</div>
-		<div class="pic-box">
-			<div class="am-container">
-				<div class="am-g">
-					<div class="am-u-lg-6 am-u-md-6 am-u-sm-6 am-text-left" >
-						<span  style="font-weight: 700">展览回顾</span>
-					</div>
-					<div class="am-u-lg-6 am-u-md-6 am-u-sm-6 am-text-right" style="padding: 10px;">
-						<span class=" am-kai" style="font-weight: 700"><em class="ownfont">view all</em></span>
-					</div>
-				</div>
-				<div class="am-g">
-					<div class="am-u-lg-3 am-u-md-3 am-u-sm-3" >
-						<img src="img/05-03XQ4.png" class="am-img-responsive" style="width: 100%;" >
-						<div class="owntop ownpcTop">
-							<h3 class="ownTitle">博洛尼亚插画展</h3>
-							<h4 class="owntext">巧遇全球最美插画<br></h4>
-							<h4 class="owntext">2016.5.31 - 2016.7.27</h4>
-						</div>
-						<button type="button" class="am-left am-btn-xs am-btn" style="border:1px solid #000;background-color:transparent;margin-top: 10px">
-							<em class="fontDetails">view details</em>
-						</button>
-					</div>
-					<div class="am-u-lg-3 am-u-md-3 am-u-sm-3" >
-						<img src="img/05-01PAST2.png" class="am-img-responsive" style="width: 100%;" >
-						<div class="owntop ownpcTop">
-							<h3 class="ownTitle">博洛尼亚插画展</h3>
-							<h4 class="owntext">巧遇全球最美插画<br></h4>
-							<h4 class="owntext">2016.5.31 - 2016.7.27</h4>
-						</div>
-						<button type="button" class="am-left am-btn-xs am-btn" style="border:1px solid #000;background-color:transparent;margin-top: 10px">
-							<em class="fontDetails">view details</em>
-						</button>
-					</div>
-					<div class="am-u-lg-3 am-u-md-3 am-u-sm-3" >
-						<img src="img/05-01ZLHG2.png" class="am-img-responsive" style="width: 100%;" >
-						<div class="owntop ownpcTop">
-							<h3 class="ownTitle">博洛尼亚插画展</h3>
-							<h4 class="owntext">巧遇全球最美插画<br></h4>
-							<h4 class="owntext">2016.5.31 - 2016.7.27</h4>
-						</div>
-						<button type="button" class="am-left am-btn-xs am-btn" style="border:1px solid #000;background-color:transparent;margin-top: 10px;">
-							<em class="fontDetails">view details</em>
-						</button>
-					</div>
-					<div class="am-u-lg-3 am-u-md-3 am-u-sm-3" >
-						<img src="img/05-01ZLHG5.png" class="am-img-responsive" style="width: 100%;" >
-						<div class="owntop ownpcTop">
-							<h3 class="ownTitle">博洛尼亚插画展</h3>
-							<h4 class="owntext">巧遇全球最美插画<br></h4>
-							<h4 class="owntext">2016.5.31 - 2016.7.27</h4>
-						</div>
-						<button type="button" class="am-left am-btn-xs am-btn" style="border:1px solid #000;background-color:transparent;margin-top: 10px">
-							<em class="fontDetails">view details</em>
-						</button>
-					</div>
-				</div>
-				<hr style="border: 1px solid #d6d6d6"/>
-			</div>
-		</div>
-		<div class="pic-box">
-			<div class="am-container">
-				<div class="am-g">
-					<div class="am-u-lg-12 am-u-md-12 am-u-sm-12 am-text-left" >
-						<span  style="font-weight: 700">YAM Learn</span>
-					</div>
-				</div>
-				<div class="am-g" style="margin-top: 20px;">
-					<div class="am-u-lg-8 am-u-md-8" style="border-right: 1px solid #d6d6d6;padding-left: 0;">
-						<div class="am-u-lg-6 am-u-md-6">
-							<img src="img/05-01ZLHG3 Copy.png" class="am-img-responsive" style="width: 100%;" >
-						</div>
-						<div class="am-u-lg-6 am-u-md-6">
-							<div class="owntop ownpcTop">
-								<div class="ownline"></div>
-								<h4 style="font-family: 黑体">活动招募</h4>
-								<h2>制扇至美</h2>
-								<h4>
-									手绘团扇儿童艺术工作坊<br>
-								</h4>
-								<p>
-									团扇又称执扇、合欢扇得名于西汉班婕妤的诗句“裁为合团扇作、花卉、植物绘进扇子中让生活中的一事一物都变得灵动有温度...
+							<div class="am-u-lg-12 am-u-md-12" >
+								<img src="img/shouye5.jpg" class="am-img-responsive" style="width: 100%;" >
+								<h2>YAM Charity | 别处对画 艺术让人成为人</h2>
+								<p style="font-weight: 500;">
+									2016年1月22日(周五)下午4点,展览"焕象"于央美术馆开幕的,它们慢慢成长......材料的特性和我的劳动是他确立,最后看到的是含混的趣味、混乱的思考和总是含蓄的安静的品味。
 								</p>
-								<h4>2016.11.12 / 15:00-17:00</h4>
+								<button type="button" class="am-left am-btn-md am-btn" style="border:1px solid #000;background-color:transparent;margin-top: 10px">
+									<em class="fontDetails">view details</em>
+								</button>
 							</div>
-							<button type="button" class="am-left am-btn-xs am-btn" style="border:1px solid #000;background-color:transparent;margin-top: 20px">
-								<em class="fontDetails">view details</em>
-							</button>
 						</div>
-					</div>
-					<div class="am-u-lg-4 am-u-md-4" style="padding: 10px;">
-						<div class="am-container">
-							<div class="am-g">
-								<div class="am-u-lg-6 am-u-md-6 am-u-sm-6 am-text-left" >
-									<div class="ownline"></div>
-									<h4 style="font-family: 黑体">活动回顾</h4>
-								</div>
-								<div class="am-u-lg-6 am-u-md-6 am-u-sm-6 am-text-right">
-									<span style="font-weight: 700"><em class="ownfont">view all</em></span>
-								</div>
+						<div class="am-u-lg-6 am-u-md-6 am-u-sm-6">
+							<div class="am-u-lg-6 am-u-md-6 am-u-sm-6 am-text-left" >
+								<span  style="font-weight: 700">媒体动态</span>
 							</div>
-							<div class="am-g">
-								<div class="am-slider am-slider-default ownPoint" style="box-shadow:none;">
-									<div class="am-viewport" style="overflow: hidden; position: relative;">
-										<ul class="am-slides"
-											style="width: 1200%; transition-duration: 0s; transform: translate3d(-682px, 0px, 0px);">
-											<li class="clone" aria-hidden="true" style="float: left; display: block; width: 100%;">
-												<img src="img/10KID1.png" class="am-img-responsive" style="width: 100%;" >
-												<div class="owntop ownpcTop">
-													<h4>制扇至美</h4>
-													<h5 class="owntext">巧遇全球最美插画<br></h5>
-													<h5 class="owntext">2016.11.12 / 15:00-17:00</h5>
-												</div>
-											</li>
-											<li class="clone" aria-hidden="true" style="float: left; display: block; width: 682px;">
-												<img src="img/10KID1.png" class="am-img-responsive" style="width: 100%;" >
-												<div class="owntop ownpcTop">
-													<h3>制扇至美</h3>
-													<h4 class="owntext">巧遇全球最美插画<br></h4>
-													<h4 class="owntext">2016.11.12 / 15:00-17:00</h4>
-												</div>
-											</li>
-										</ul>
-									</div>
-								</div>
+							<div class="am-u-lg-6 am-u-md-6 am-u-sm-6 am-text-right" style="padding-right: 0">
+								<span class=" am-kai" style="font-weight: 700"><em class="ownfont">view all</em></span>
+							</div>
+							<div class="am-u-lg-12 am-u-md-12">
+								<img src="img/shouye6.jpg" class="am-img-responsive" style="width: 100%;" >
+								<h2>Hi艺术</h2>
+								<p style="font-weight: 500;">
+									2016年1月22日(周五)下午4点,展览"焕象"于央美术馆开幕的,它们慢慢成长......材料的特性和我的劳动是他确立,最后看到的是含混的趣味、混乱的思考和总是含蓄的安静的品味。
+								</p>
+								<button type="button" class="am-left am-btn-md am-btn" style="border:1px solid #000;background-color:transparent;margin-top: 10px">
+									<em class="fontDetails">view details</em>
+								</button>
 							</div>
 						</div>
 					</div>
+					<hr style="border: 1px solid #d6d6d6"/>
 				</div>
-				<hr style="border: 1px solid #d6d6d6;margin-top: 20px ;"/>
 			</div>
-		</div>
-		<div class="pic-box">
-			<div class="am-container">
-				<div class="am-g">
-					<div class="am-u-lg-6 am-u-md-6 am-u-sm-6" style="padding-left: 0">
+			<div class="pic-box">
+				<div class="am-container">
+					<div class="am-g">
 						<div class="am-u-lg-6 am-u-md-6 am-u-sm-6 am-text-left" >
-							<span  style="font-weight: 700">最新动态</span>
+							<span  style="font-weight: 700">YAM Store</span>
 						</div>
 						<div class="am-u-lg-6 am-u-md-6 am-u-sm-6 am-text-right" >
 							<span class=" am-kai" style="font-weight: 700"><em class="ownfont">view all</em></span>
 						</div>
-						<div class="am-u-lg-12 am-u-md-12" >
-							<img src="img/shouye5.jpg" class="am-img-responsive" style="width: 100%;" >
-							<h2>YAM Charity | 别处对画 艺术让人成为人</h2>
-							<p style="font-weight: 500;">
-								2016年1月22日(周五)下午4点,展览"焕象"于央美术馆开幕的,它们慢慢成长......材料的特性和我的劳动是他确立,最后看到的是含混的趣味、混乱的思考和总是含蓄的安静的品味。
-							</p>
-							<button type="button" class="am-left am-btn-md am-btn" style="border:1px solid #000;background-color:transparent;margin-top: 10px">
-								<em class="fontDetails">view details</em>
-							</button>
-						</div>
 					</div>
-					<div class="am-u-lg-6 am-u-md-6 am-u-sm-6">
-						<div class="am-u-lg-6 am-u-md-6 am-u-sm-6 am-text-left" >
-							<span  style="font-weight: 700">媒体动态</span>
-						</div>
-						<div class="am-u-lg-6 am-u-md-6 am-u-sm-6 am-text-right" style="padding-right: 0">
-							<span class=" am-kai" style="font-weight: 700"><em class="ownfont">view all</em></span>
-						</div>
-						<div class="am-u-lg-12 am-u-md-12">
-							<img src="img/shouye6.jpg" class="am-img-responsive" style="width: 100%;" >
-							<h2>Hi艺术</h2>
-							<p style="font-weight: 500;">
-								2016年1月22日(周五)下午4点,展览"焕象"于央美术馆开幕的,它们慢慢成长......材料的特性和我的劳动是他确立,最后看到的是含混的趣味、混乱的思考和总是含蓄的安静的品味。
-							</p>
-							<button type="button" class="am-left am-btn-md am-btn" style="border:1px solid #000;background-color:transparent;margin-top: 10px">
-								<em class="fontDetails">view details</em>
-							</button>
-						</div>
-					</div>
-				</div>
-				<hr style="border: 1px solid #d6d6d6"/>
-			</div>
-		</div>
-		<div class="pic-box">
-			<div class="am-container">
-				<div class="am-g">
-					<div class="am-u-lg-6 am-u-md-6 am-u-sm-6 am-text-left" >
-						<span  style="font-weight: 700">YAM Store</span>
-					</div>
-					<div class="am-u-lg-6 am-u-md-6 am-u-sm-6 am-text-right" >
-						<span class=" am-kai" style="font-weight: 700"><em class="ownfont">view all</em></span>
-					</div>
-				</div>
-				<div class="am-g">
-					<div class="am-u-lg-4 am-u-md-4 am-u-sm-4" >
-						<img src="img/14-2.png" class="am-img-responsive" style="width: 100%;" >
-						<div class="am-g">
-							<div class="am-u-lg-8 am-u-md-8 am-u-sm-8 am-text-left" style="margin-top: 10px;">
-								<p  style="font-weight: 700">胶囊U盘(8G)Capsule U Disk</p>
-							</div>
-							<div class="am-u-lg-3 am-u-md-3 am-u-sm-3 am-text-right">
-								<button type="button" class="am-right am-btn-md am-btn" style="border:1px solid #000;background-color:transparent;margin-top: 10px;">
-									购买
-								</button>
-							</div>
-						</div>
-					</div>
-					<div class="am-u-lg-4 am-u-md-4 am-u-sm-4" >
-						<img src="img/14STORE2.png" class="am-img-responsive" style="width: 100%;" >
-						<div class="am-g">
-							<div class="am-u-lg-8 am-u-md-8 am-u-sm-8 am-text-left" style="margin-top: 10px;">
-								<p  style="font-weight: 700">胶囊U盘(8G)Capsule U Disk</p>
-							</div>
-							<div class="am-u-lg-3 am-u-md-3 am-u-sm-3 am-text-right">
-								<button type="button" class="am-right am-btn-md am-btn" style="border:1px solid #000;background-color:transparent;margin-top: 10px;">
-									购买
-								</button>
-							</div>
-						</div>
-					</div>
-					<div class="am-u-lg-4 am-u-md-4 am-u-sm-4" >
-						<img src="img/14STORE8.png" class="am-img-responsive" style="width: 100%;" >
-						<div class="am-g">
-							<div class="am-u-lg-8 am-u-md-8 am-u-sm-8 am-text-left" style="margin-top: 10px;">
-								<p  style="font-weight: 700">胶囊U盘(8G)Capsule U Disk</p>
-							</div>
-							<div class="am-u-lg-3 am-u-md-3 am-u-sm-3 am-text-right">
-								<button type="button" class="am-right am-btn-md am-btn" style="border:1px solid #000;background-color:transparent;margin-top: 10px;">
-									购买
-								</button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<footer>
-			<div class="pic-box">
-				<div class="am-container">
-					<hr style="border: 1px solid #d6d6d6"/>
 					<div class="am-g">
-						<div class="am-u-lg-8 am-u-md-8 am-u-sm-12" style="border-right: 1px solid #d6d6d6">
-							<p>北京市朝阳区朝阳公园路6号蓝色港湾国际商区14号楼3层</p>
-							<p>3rd Floor,Building 14,No.6 Chaoyang Road, Chaoyang District,Beijing,China</p>
-						</div>
-						<div class="am-u-lg-4 am-u-md-4 am-u-sm-12">
-							<div class="am-u-lg-6 am-u-md-6 am-u-sm-12">
-								<p>010-59056678</p>
-								<p>lnfo@yangmuseum.org</p>
-							</div>
-							<div class="am-u-lg-6 am-u-md-6 am-u-sm-12 fonticonStyle">
-								<span class="iconfont icon-facebook1"></span>
-								<span class="iconfont icon-QQ" ></span>
-								<span class="iconfont icon-weibo" ></span>
-								<span class="iconfont icon-wechat"></span>
+						<div class="am-u-lg-4 am-u-md-4 am-u-sm-4" >
+							<img src="img/14-2.png" class="am-img-responsive" style="width: 100%;" >
+							<div class="am-g">
+								<div class="am-u-lg-8 am-u-md-8 am-u-sm-8 am-text-left" style="margin-top: 10px;">
+									<p  style="font-weight: 700">胶囊U盘(8G)Capsule U Disk</p>
+								</div>
+								<div class="am-u-lg-3 am-u-md-3 am-u-sm-3 am-text-right">
+									<button type="button" class="am-right am-btn-md am-btn" style="border:1px solid #000;background-color:transparent;margin-top: 10px;">
+										购买
+									</button>
+								</div>
 							</div>
 						</div>
-					</div>
-					<hr style="border: 1px solid #d6d6d6"/>
-				</div>
-				<div class="am-container">
-					<div class="am-g">
-						<div class="am-u-lg-8 am-u-md-8 am-u-sm-12">
-							<p>© 2016 YAM ALL Rights Reserved.</p>
+						<div class="am-u-lg-4 am-u-md-4 am-u-sm-4" >
+							<img src="img/14STORE2.png" class="am-img-responsive" style="width: 100%;" >
+							<div class="am-g">
+								<div class="am-u-lg-8 am-u-md-8 am-u-sm-8 am-text-left" style="margin-top: 10px;">
+									<p  style="font-weight: 700">胶囊U盘(8G)Capsule U Disk</p>
+								</div>
+								<div class="am-u-lg-3 am-u-md-3 am-u-sm-3 am-text-right">
+									<button type="button" class="am-right am-btn-md am-btn" style="border:1px solid #000;background-color:transparent;margin-top: 10px;">
+										购买
+									</button>
+								</div>
+							</div>
+						</div>
+						<div class="am-u-lg-4 am-u-md-4 am-u-sm-4" >
+							<img src="img/14STORE8.png" class="am-img-responsive" style="width: 100%;" >
+							<div class="am-g">
+								<div class="am-u-lg-8 am-u-md-8 am-u-sm-8 am-text-left" style="margin-top: 10px;">
+									<p  style="font-weight: 700">胶囊U盘(8G)Capsule U Disk</p>
+								</div>
+								<div class="am-u-lg-3 am-u-md-3 am-u-sm-3 am-text-right">
+									<button type="button" class="am-right am-btn-md am-btn" style="border:1px solid #000;background-color:transparent;margin-top: 10px;">
+										购买
+									</button>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</footer>
+			<footer>
+				<div class="pic-box">
+					<div class="am-container">
+						<hr style="border: 1px solid #d6d6d6"/>
+						<div class="am-g">
+							<div class="am-u-lg-8 am-u-md-8 am-u-sm-12" style="border-right: 1px solid #d6d6d6">
+								<p>北京市朝阳区朝阳公园路6号蓝色港湾国际商区14号楼3层</p>
+								<p>3rd Floor,Building 14,No.6 Chaoyang Road, Chaoyang District,Beijing,China</p>
+							</div>
+							<div class="am-u-lg-4 am-u-md-4 am-u-sm-12">
+								<div class="am-u-lg-6 am-u-md-6 am-u-sm-12">
+									<p>010-59056678</p>
+									<p>lnfo@yangmuseum.org</p>
+								</div>
+								<div class="am-u-lg-6 am-u-md-6 am-u-sm-12 fonticonStyle">
+									<span class="iconfont icon-facebook1"></span>
+									<span class="iconfont icon-QQ" ></span>
+									<span class="iconfont icon-weibo" ></span>
+									<span class="iconfont icon-wechat"></span>
+								</div>
+							</div>
+						</div>
+						<hr style="border: 1px solid #d6d6d6"/>
+					</div>
+					<div class="am-container">
+						<div class="am-g">
+							<div class="am-u-lg-8 am-u-md-8 am-u-sm-12">
+								<p>© 2016 YAM ALL Rights Reserved.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
 
+		<!--手机端-->
+		<!--banner-->
+		<div class="am-show-sm-only">
+			<div class="doc-example">
+				<div class="Mobilebigbanner">
+					<div class="box">
+						<div class="am-container">
+							<div class="am-g">
+								<div class="am-u-sm-6">
+									<img src="img/01HOME4.png" class="am-img-responsive" style="width: 100%;" >
+								</div>
+								<div class="am-u-sm-6" style="height: 106px;color: #000">
+									<div>
+										<div class="ownline"></div>
+										<p style="font-size: 14px;font-weight: 600">Current</p>
+										<p style="font-size: 14px;font-weight: 600">当前展览</p>
+										<p style="font-size: 12px;">"巧遇全球最美插画"<br>博洛尼亚插画展</p>
+									</div>
+								</div>
+							</div>
+							<div class="am-g">
+								<div class="am-u-sm-6" style="padding: 10px;">
+									<button type="button" class="am-center am-btn-xs am-btn" style="border:1px solid #000;background-color:transparent;color: #000;">
+										<em class="fontDetails">view details</em>
+									</button>
+								</div>
+								<div class="am-u-sm-6" style="color: #000">
+									<div>
+										<p style="font-size: 12px;">2016.5.31-2016.7.27</p>
+									</div>
+								</div>
+							</div>
+							<hr style="border: 1px solid #d6d6d6;margin-top: 20px"/>
+						</div>
+						<div class="am-container">
+							<div class="am-slider am-slider-default ownPoint" style="box-shadow:none;">
+								<div class="am-viewport" style="overflow: hidden; position: relative;">
+									<ul class="am-slides"
+										style="width: 1200%; transition-duration: 0s; transform: translate3d(-682px, 0px, 0px);">
+										<li class="clone" aria-hidden="true" style="float: left; display: block; width: 385px;">
+											<div class="am-g">
+												<div class="am-u-sm-6">
+													<img src="img/01HOME2.png" class="am-img-responsive" style="width: 100%;" >
+												</div>
+												<div class="am-u-sm-6" style="height: 106px;color: #000">
+													<div>
+														<div class="ownline"></div>
+														<p style="font-size: 14px;font-weight: 600">Upcoming</p>
+														<p style="font-size: 14px;font-weight: 600">展览预告</p>
+														<p style="font-size: 12px;">"我们的绘画"<br>策划人：孙冬冬</p>
+													</div>
+												</div>
+											</div>
+											<div class="am-g" style="margin-bottom: 20px">
+												<div class="am-u-sm-6" style="padding: 10px;">
+													<button type="button" class="am-center am-btn-xs am-btn" style="border:1px solid #000;background-color:transparent;color: #000;">
+														<em class="fontDetails">view details</em>
+													</button>
+												</div>
+												<div class="am-u-sm-6" style="color: #000">
+													<div>
+														<p style="font-size: 12px;">2016.5.31-2016.7.27</p>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li class="clone" aria-hidden="true" style="float: left; display: block; width: 385px;">
+											<div class="am-g">
+												<div class="am-u-sm-6">
+													<img src="img/01HOME2.png" class="am-img-responsive" style="width: 100%;" >
+												</div>
+												<div class="am-u-sm-6" style="height: 106px;color: #000">
+													<div>
+														<div class="ownline"></div>
+														<p style="font-size: 14px;font-weight: 600">Upcoming</p>
+														<p style="font-size: 14px;font-weight: 600">展览预告</p>
+														<p style="font-size: 12px;">"我们的绘画"<br>策划人：孙冬冬</p>
+													</div>
+												</div>
+											</div>
+											<div class="am-g">
+												<div class="am-u-sm-6" style="padding: 10px;">
+													<button type="button" class="am-center am-btn-xs am-btn" style="border:1px solid #000;background-color:transparent;color: #000;">
+														<em class="fontDetails">view details</em>
+													</button>
+												</div>
+												<div class="am-u-sm-6" style="color: #000">
+													<div>
+														<p style="font-size: 12px;">2016.5.31-2016.7.27</p>
+													</div>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<hr style="border: 1px solid #d6d6d6;margin-top: 40px"/>
+						</div>
+						<div class="am-container">
+							<div class="am-slider am-slider-default ownPoint" style="box-shadow:none;">
+								<div class="am-viewport" style="overflow: hidden; position: relative;">
+									<ul class="am-slides"
+										style="width: 1200%; transition-duration: 0s; transform: translate3d(-682px, 0px, 0px);">
+										<li class="clone" aria-hidden="true" style="float: left; display: block; width: 385px;">
+											<div class="am-g">
+												<div class="am-u-sm-6">
+													<img src="img/01HOME3.png" class="am-img-responsive" style="width: 100%;" >
+												</div>
+												<div class="am-u-sm-6" style="height: 106px;color: #000">
+													<div>
+														<div class="ownline"></div>
+														<p style="font-size: 14px;font-weight: 600">Psat</p>
+														<p style="font-size: 14px;font-weight: 600">展览回顾</p>
+														<p style="font-size: 12px;">"焕像"<br>闫博个展</p>
+													</div>
+												</div>
+											</div>
+											<div class="am-g">
+												<div class="am-u-sm-6" style="padding: 10px;">
+													<button type="button" class="am-center am-btn-xs am-btn" style="border:1px solid #000;background-color:transparent;color: #000;">
+														<em class="fontDetails">view details</em>
+													</button>
+												</div>
+												<div class="am-u-sm-6" style="color: #000">
+													<div>
+														<p style="font-size: 12px;">2016.5.31-2016.7.27</p>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li class="clone" aria-hidden="true" style="float: left; display: block; width: 385px;">
+											<div class="am-g">
+												<div class="am-u-sm-6">
+													<img src="img/01HOME3.png" class="am-img-responsive" style="width: 100%;" >
+												</div>
+												<div class="am-u-sm-6" style="height: 106px;color: #000">
+													<div>
+														<div class="ownline"></div>
+														<p style="font-size: 14px;font-weight: 600">Psat</p>
+														<p style="font-size: 14px;font-weight: 600">展览回顾</p>
+														<p style="font-size: 12px;">"焕像"<br>闫博个展</p>
+													</div>
+												</div>
+											</div>
+											<div class="am-g">
+												<div class="am-u-sm-6" style="padding: 10px;">
+													<button type="button" class="am-center am-btn-xs am-btn" style="border:1px solid #000;background-color:transparent;color: #000;">
+														<em class="fontDetails">view details</em>
+													</button>
+												</div>
+												<div class="am-u-sm-6" style="color: #000">
+													<div>
+														<p style="font-size: 12px;">2016.5.31-2016.7.27</p>
+													</div>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<hr style="border: 1px solid #d6d6d6;margin-top: 40px"/>
+						</div>
+					</div>
+					<div class="pic-box" style="background: #fff">
+						<div class="am-container">
+							<div class="am-g" style="margin-top: 20px;">
+								<div class="am-u-sm-12">
+									<img src="img/01HOME5.png" class="am-img-responsive" style="width: 100%;" >
+								</div>
+							</div>
+							<div class="am-g" style="margin-top: 10px;">
+								<div class="am-u-sm-4" style="color: #000">
+									<div>
+										<div class="ownline"></div>
+										<p style="font-size: 14px;font-weight: 700">YAM<br>Learn<br><span style="font-size: 12px;">儿童教育</span></p>
+									</div>
+								</div>
+								<div class="am-u-sm-8">
+									<div>
+										<p style="font-family: 黑体">"且听风铃"<br>儿童风铃艺术工作坊活动招募</p>
+										<p>
+											央美术馆儿童公教部推出风铃主题活动:"且听风铃——儿童风铃艺术工作坊",现开始招募体验观众。小朋友们，
+											快来美术馆用缤纷的色彩和各种有趣的材料一起制作独一无二
+										</p>
+									</div>
+									<button type="button" class="am-left am-btn-xs am-btn" style="border:1px solid #000;background-color:transparent;margin-top: 10px;color: #000;">
+										<em class="fontDetails">view details</em>
+									</button>
+								</div>
+							</div>
+						</div>
+						<div class="am-container">
+							<div class="am-g" style="margin-top: 20px;">
+								<div class="am-u-sm-12">
+									<img src="img/01HOME6.png" class="am-img-responsive" style="width: 100%;" >
+								</div>
+							</div>
+							<div class="am-g" style="margin-top: 10px;">
+								<div class="am-u-sm-4" style="color: #000">
+									<div>
+										<div class="ownline"></div>
+										<p style="font-size: 14px;font-weight: 700">YAM<br>Store<br><span style="font-size: 12px;">艺术商店</span></p>
+									</div>
+								</div>
+								<div class="am-u-sm-8">
+									<div>
+										<p style="font-family: 黑体">7月新品<br>Sticky Monster</p>
+										<p>
+											央美术馆儿童公教部推出风铃主题活动:"且听风铃——儿童风铃艺术工作坊",现开始招募体验观众。小朋友们，
+											快来美术馆用缤纷的色彩和各种有趣的材料一起制作独一无二
+										</p>
+									</div>
+									<button type="button" class="am-left am-btn-xs am-btn" style="border:1px solid #000;background-color:transparent;margin-top: 10px;color: #000;">
+										<em class="fontDetails">view details</em>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<footer style="background: #fff">
+						<div class="pic-box">
+							<div class="am-container">
+								<hr style="border: 1px solid #d6d6d6"/>
+								<div class="am-g">
+									<div class="am-u-sm-12" style="border-right: 1px solid #d6d6d6">
+										<p>北京市朝阳区朝阳公园路6号蓝色港湾国际商区14号楼3层</p>
+										<p>3rd Floor,Building 14,No.6 Chaoyang Road, Chaoyang District,Beijing,China</p>
+									</div>
+									<div class="am-u-sm-12">
+										<div class="am-u-sm-6">
+											<p>+86 10 59056678</p>
+											<p>lnfo@yangmuseum.org</p>
+										</div>
+										<div class="am-u-sm-6 fonticonStyle am-text-right">
+											<span class="iconfont icon-wechat"></span>
+											<span class="iconfont icon-weibo" ></span>
+										</div>
+									</div>
+								</div>
+								<hr style="border: 1px solid #d6d6d6"/>
+							</div>
+							<div class="am-container">
+								<div class="am-g">
+									<div class="am-u-sm-12">
+										<p>© 2016 YAM ALL Rights Reserved.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</footer>
+				</div>
+			</div>
+		</div>
+		
 		<div data-am-widget="gotop" class="top am-gotop am-gotop-fixed">
 			<a href="#top">
 				<i class="am-gotop-icon am-icon-chevron-up"></i>
@@ -538,7 +794,9 @@
 		<script>
 			$(document).ready(function(){
 			    //轮播初始化
-				$('.am-slider').flexslider();
+				$('.am-slider').flexslider({
+					touch: true
+				});
 			})
 
 		</script>

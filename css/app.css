@@ -24,6 +24,9 @@ header {
 	max-width: 1200px;
 }
 @media only screen and (max-width:640px ) {
+    body {
+        background: #f4f4f4;
+    }
 	header{
 		height: 0;
 		padding: 0 0 0 0;
@@ -140,7 +143,7 @@ ul.am-dropdown-content>li>a:hover {
   color: #fff;
 }
 .am-header{
-  line-height: 40px;
+  line-height: 50px;
 }
 
 .am-offcanvas-content i:hover{
@@ -156,7 +159,7 @@ ul.am-dropdown-content>li>a:hover {
 
 /*banner start*/
 .bigbanner{
-	/*height: 500px;*/
+	height: 500px;
 	background: url(../img/shouye1.jpg) no-repeat center;
   	-webkit-background-size:cover;
   	background-size: cover;
