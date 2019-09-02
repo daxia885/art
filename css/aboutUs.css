@@ -8,7 +8,7 @@
 }
 .zhengwen {
 	font: normal 13px "PingFang SC";
-	margin: 82px 400px 82px 120px;
+	/*margin: 82px 400px 82px 120px;*/
 	line-height: 2;
 }
 .about-title {
@@ -18,10 +18,15 @@
 	font: bold 23px "PingFang SC";
 }
 .aboutbanner .am-container {
-	max-width: 1440px;
+	/*max-width: 1440px;
 	margin-left: 120px;
-	padding: 47px 0px;
+	padding: 47px 0px;*/
+	padding-top:5%;
+	padding-left:2%;
 }
 .am-article-bd p {
 	font-size: 13px;
+}
+.textZhengwen {
+	margin-top:8%;margin-bottom: 30px;
 }
