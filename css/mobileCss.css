@@ -46,3 +46,14 @@
     padding-bottom: 20px;
     height:auto;
 }
+/*活动回顾详情*/
+.Mobilebigbigbannerfour {
+    height: 350px;
+    background: url(../img/10KID5.png) no-repeat center;
+    -webkit-background-size:cover;
+    background-size: cover;
+    color: #fff;
+}
+.Mobilebigbigbannerfour .am-container {
+    height:auto;
+}
