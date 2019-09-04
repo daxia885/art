@@ -32,131 +32,7 @@
 		<link rel="stylesheet" href="css/iconfont.css">
 	</head>
 	<body>
-		<header>
-			<!--导航-->
-			<div class="am-topbar am-show-md-up" style="border-bottom: 2px solid #0d121b">
-				<div class="am-container">
-					<h1 class="am-topbar-brand ownhome" style="border-right: 2px solid #0d121b">
-						<img src="img/Page.png" class="">
-					</h1>
-					<div class="am-topbar-left">
-						<ul class="am-nav am-nav-pills ownlinght">
-							<!--下拉菜单-->
-							<li class="am-dropdown" data-am-dropdown>
-								<a class="am-dropdown-toggle" data-am-dropdown-toggle href="#">
-									展览
-								</a>
-								<ul class="am-dropdown-content">
-									<li>
-                                        <a href="exhibitionNow.html">当前展览</a>
-									</li>
-									<li>
-										<a href="#">展览回顾</a>
-									</li>
-								</ul>
-							</li>
-							<li class="am-dropdown" data-am-dropdown>
-								<a class="am-dropdown-toggle" data-am-dropdown-toggle href="#">
-									公共项目
-								</a>
-								<ul class="am-dropdown-content">
-									<li>
-										<a href="#">活动回顾</a>
-									</li>
-								</ul>
-							</li>
-							<li class="am-dropdown" data-am-dropdown>
-								<a class="am-dropdown-toggle" data-am-dropdown-toggle href="#">
-									关于我们
-								</a>
-								<ul class="am-dropdown-content">
-									<li>
-										<a href="aboutUs.html">关于我们</a>
-									</li>
-									<li>
-										<a href="memberIntroduce.html">会员制度</a>
-									</li>
-									<li>
-										<a href="memberApply.html">会员申请</a>
-									</li>
-								</ul>
-							</li>
-							<li>
-								<a href="yamStore.html">YAM Store</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-
-			<!--菜单-->
-			<div data-am-widget="header" class="am-header  am-show-sm-only">
-				<!--<div class="am-header-right am-header-nav">
-					<a href="#right-link" class="">
-						<i class="am-header-icon am-icon-home"></i>
-						<span class="am-header-nav-title">首页</span>
-					</a>
-				</div>-->
-				<h1 class="am-header-title"></h1>
-				<div class="am-header-left am-header-nav">
-					<a href="#left-link" class="" data-am-offcanvas="{target: '#r-nav',effect: 'push'}">
-						<i class="am-header-icon am-icon-bars"></i>
-						<span class="am-header-nav-title">菜单</span>
-					</a>
-				</div>
-			</div>
-
-			<!-- 侧边栏内容 -->
-			<div id="r-nav" class="am-offcanvas">
-				<div class="am-offcanvas-bar">
-					<ul class="am-offcanvas-content am-nav ownlinght">
-						<!--下拉菜单-->
-						<li class="am-dropdown" data-am-dropdown>
-							<a class="am-dropdown-toggle" data-am-dropdown-toggle href="#">
-								展览
-							</a>
-							<ul class="am-dropdown-content">
-								<li>
-									<a href="exhibitionNow.html">当前展览</a>
-								</li>
-								<li>
-									<a href="#">展览回顾</a>
-								</li>
-							</ul>
-						</li>
-						<li class="am-dropdown" data-am-dropdown>
-							<a class="am-dropdown-toggle" data-am-dropdown-toggle href="#">
-								公共项目
-							</a>
-							<ul class="am-dropdown-content">
-								<li>
-									<a href="#">活动回顾</a>
-								</li>
-							</ul>
-						</li>
-						<li class="am-dropdown" data-am-dropdown>
-							<a class="am-dropdown-toggle" data-am-dropdown-toggle href="#">
-								关于我们
-							</a>
-							<ul class="am-dropdown-content">
-								<li>
-									<a href="aboutUs.html">关于我们</a>
-								</li>
-								<li>
-									<a href="memberIntroduce.html">会员制度</a>
-								</li>
-								<li>
-									<a href="memberApply.html">会员申请</a>
-								</li>
-							</ul>
-						</li>
-						<li>
-							<a href="yamStore.html">YAM Store</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</header>
+		<header></header>
 
 		<!--banner-->
 		<div class="pic-box" style="padding-top: 100px;">
@@ -449,6 +325,7 @@
 		<script src="js/amazeui.min.js"></script>
 		<script>
 			$(document).ready(function(){
+				$("header").load("header.html");
 			    //轮播初始化
 				$('.am-slider').flexslider();
 			})
