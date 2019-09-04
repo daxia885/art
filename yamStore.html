@@ -32,7 +32,7 @@
 	<link rel="stylesheet" href="css/store.css">
 </head>
 <body>
-<header></header>
+<header id="pc_footer"></header>
 
 <!--banner-->
 <!--<div class="doc-example">
@@ -82,13 +82,13 @@
 				<div class="storebanner_2">
 					<div class="am-container">
 						<!--<div class="am-modal-dialog">-->
-							<!--<div class="am-u-lg-12 am-u-md-12 am-u-sm-12">-->
-								<!--<h2 class="am-text-center" >新品</h2>-->
-								<!--<h2 class="am-text-center" >推荐</h2>-->
-								<!--<p></p>-->
-								<!--<p class="am-text-center" >策展人：JeremieThircuir</p>-->
-								<!--<h3 class="am-text-center">2016.1.20 - 2016.3.30</h3>-->
-							<!--</div>-->
+						<!--<div class="am-u-lg-12 am-u-md-12 am-u-sm-12">-->
+						<!--<h2 class="am-text-center" >新品</h2>-->
+						<!--<h2 class="am-text-center" >推荐</h2>-->
+						<!--<p></p>-->
+						<!--<p class="am-text-center" >策展人：JeremieThircuir</p>-->
+						<!--<h3 class="am-text-center">2016.1.20 - 2016.3.30</h3>-->
+						<!--</div>-->
 						<!--</div>-->
 					</div>
 				</div>
@@ -141,13 +141,13 @@
 		</ul>
 	</div>
 	<!--<div class="am-slider am-slider-default">-->
-		<!--<div class="am-viewport" style="overflow: hidden; position: relative;">-->
-			<!--<ul class="am-slides"-->
-				<!--style="width: 1200%; transition-duration: 0s; transform: translate3d(-682px, 0px, 0px);">-->
-				<!--<li class="clone" aria-hidden="true" style="float: left; display: block; width: 682px;">-->
-				<!--</li>-->
-			<!--</ul>-->
-		<!--</div>-->
+	<!--<div class="am-viewport" style="overflow: hidden; position: relative;">-->
+	<!--<ul class="am-slides"-->
+	<!--style="width: 1200%; transition-duration: 0s; transform: translate3d(-682px, 0px, 0px);">-->
+	<!--<li class="clone" aria-hidden="true" style="float: left; display: block; width: 682px;">-->
+	<!--</li>-->
+	<!--</ul>-->
+	<!--</div>-->
 	<!--</div>-->
 </div>
 <div class="pic-box">
@@ -423,8 +423,539 @@
 
 <script src="js/amazeui.min.js"></script>
 <script>
-    $(document).ready(function(){
+	$(document).ready(function(){
 		$("header").load("header.html");
+		//轮播初始化
+		$('.am-slider').flexslider();
+	})
+
+</script>
+
+</body>
+
+</html>
+
+
+
+
+<!--new-->
+<!--
+<!doctype html>
+<html class="no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<title></title>
+
+	&lt;!&ndash;移动优先&ndash;&gt;
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	&lt;!&ndash; 渲染引擎 只对 360 浏览器 6.5+ 有效&ndash;&gt;
+	<meta name="renderer" content="webkit">
+	&lt;!&ndash; 如果你的网站不想被剥去外衣、往赤裸的身体上贴广告，就加上下面的代码（百度会为你的网页进行转码）&ndash;&gt;
+	<meta http-equiv="Cache-Control" content="no-siteapp" />
+	<link rel="icon" type="image/png" href="i/favicon.png">
+	&lt;!&ndash; Add to homescreen for Chrome on Android 添加到Android上的Chrome主屏幕（网站开启对web app程序的支持）&ndash;&gt;
+	<meta name="mobile-web-app-capable" content="yes">
+	<link rel="icon" sizes="192x192" href="i/app-icon72x72@2x.png">
+	&lt;!&ndash; Add to homescreen for Safari on iOS 添加到桌面的iOS Safari  网站开启对web app程序的支持&ndash;&gt;
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-title" content="Amaze UI" />
+	<link rel="apple-touch-icon-precomposed" href="i/app-icon72x72@2x.png">
+	&lt;!&ndash; Tile icon for Win8 (144x144 + tile color) 添加到主屏后-设置状态栏的背景颜色(win8)&ndash;&gt;
+	<meta name="msapplication-TileImage" content="i/app-icon72x72@2x.png">
+	<meta name="msapplication-TileColor" content="#0e90d2">
+
+	&lt;!&ndash;引用&ndash;&gt;
+	<link rel="stylesheet" href="css/amazeui.min.css">
+	<link rel="stylesheet" href="css/app.css">
+	<link rel="stylesheet" href="css/store.css">
+	<link rel="stylesheet" href="css/iconfont.css">
+	<link rel="stylesheet" href="css/mobileCss.css">
+	<style>
+		header {
+			height:50px;
+			background: #fff;
+			position: static;
+		}
+		.pic:hover .bg{
+			background:#fff;
+		}
+	</style>
+</head>
+<body>
+<header>
+	&lt;!&ndash;导航&ndash;&gt;
+	<div class="am-topbar am-show-md-up" style="border-bottom: 2px solid #0d121b">
+		<div class="am-container">
+			<h1 class="am-topbar-brand ownhome" style="border-right: 2px solid #0d121b">
+				<img src="img/Page.png" class="">
+			</h1>
+			<div class="am-topbar-left">
+				<ul class="am-nav am-nav-pills ownlinght">
+					&lt;!&ndash;下拉菜单&ndash;&gt;
+					<li class="am-dropdown" data-am-dropdown>
+						<a class="am-dropdown-toggle" data-am-dropdown-toggle href="#">
+							展览
+						</a>
+						<ul class="am-dropdown-content">
+							<li>
+								<a href="exhibitionNow.html">当前展览</a>
+							</li>
+							<li>
+								<a href="#">展览回顾</a>
+							</li>
+						</ul>
+					</li>
+					<li class="am-dropdown" data-am-dropdown>
+						<a class="am-dropdown-toggle" data-am-dropdown-toggle href="#">
+							公共项目
+						</a>
+						<ul class="am-dropdown-content">
+							<li>
+								<a href="#">活动回顾</a>
+							</li>
+						</ul>
+					</li>
+					<li class="am-dropdown" data-am-dropdown>
+						<a class="am-dropdown-toggle" data-am-dropdown-toggle href="#">
+							关于我们
+						</a>
+						<ul class="am-dropdown-content">
+							<li>
+								<a href="memberIntroduce.html">会员介绍</a>
+							</li>
+							<li>
+								<a href="#">会员制度</a>
+							</li>
+							<li>
+								<a href="#">会员申请</a>
+							</li>
+						</ul>
+					</li>
+					<li class="ownactiveCopy">
+						<a href="yamStore.html">YAM Store</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	&lt;!&ndash;菜单&ndash;&gt;
+	<div data-am-widget="header" class="am-header  am-show-sm-only">
+		&lt;!&ndash;<div class="am-header-right am-header-nav">
+            <a href="#right-link" class="">
+                <i class="am-header-icon am-icon-home"></i>
+                <span class="am-header-nav-title">首页</span>
+            </a>
+        </div>&ndash;&gt;
+		<h1 class="am-header-title"></h1>
+		<div class="am-header-left am-header-nav">
+			<a href="#left-link" class="" data-am-offcanvas="{target: '#r-nav',effect: 'push'}">
+				<i class="am-header-icon am-icon-bars"></i>
+				<span class="am-header-nav-title">菜单</span>
+			</a>
+		</div>
+	</div>
+
+	&lt;!&ndash; 侧边栏内容 &ndash;&gt;
+	<div id="r-nav" class="am-offcanvas">
+		<div class="am-offcanvas-bar">
+			<ul class="am-offcanvas-content am-nav ownlinght">
+				&lt;!&ndash;下拉菜单&ndash;&gt;
+				<li class="am-dropdown" data-am-dropdown>
+					<a class="am-dropdown-toggle" data-am-dropdown-toggle href="#">
+						展览
+					</a>
+					<ul class="am-dropdown-content">
+						<li>
+                            <a href="exhibitionNow.html">当前展览</a>
+						</li>
+						<li>
+							<a href="#">展览回顾</a>
+						</li>
+					</ul>
+				</li>
+				<li class="am-dropdown" data-am-dropdown>
+					<a class="am-dropdown-toggle" data-am-dropdown-toggle href="#">
+						公共项目
+					</a>
+					<ul class="am-dropdown-content">
+						<li>
+							<a href="#">活动回顾</a>
+						</li>
+					</ul>
+				</li>
+				<li class="am-dropdown" data-am-dropdown>
+					<a class="am-dropdown-toggle" data-am-dropdown-toggle href="#">
+						关于我们
+					</a>
+					<ul class="am-dropdown-content">
+						<li>
+							<a href="memberIntroduce.html">会员介绍</a>
+						</li>
+						<li>
+							<a href="#">会员制度</a>
+						</li>
+						<li>
+							<a href="#">会员申请</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="yamStore.html">YAM Store</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</header>
+
+
+<div class="doc-example">
+	<div class="am-container">
+		<div class="am-slider am-slider-default">
+			<div class="am-viewport" style="overflow: hidden; position: relative;">
+				<ul class="am-slides"
+					style="width: 1200%; transition-duration: 0s; transform: translate3d(-682px, 0px, 0px);">
+					<li class="clone" aria-hidden="true" style="float: left; display: block; width: 682px;">
+						<div class="storebanner_1">
+							<div class="am-container ownPadding">
+								<div class="am-g ownbackground" style="padding: 20px;">
+									<div class="am-u-lg-12 am-u-md-12 am-u-sm-12 am-text-center" style="color: #fff">
+										<div class="ownText">
+
+										</div>
+										<h1 class="am-text-center" >新品<br>推荐</h1>
+										<hr style="border: 1px solid #d6d6d6"/>
+										<h2 class="am-text-center" >Sticky Monster<br>移动电源</h2>
+										<button type="button" class="am-btn-sm am-btn" style="border:1px solid #fff;background-color:transparent;margin-top: 10px;">
+											购买
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="clone" aria-hidden="true" style="float: left; display: block; width: 682px;">
+						<div class="storebanner_2">
+							<div class="am-container ownPadding">
+								<div class="am-g ownbackground" style="padding: 20px;">
+									<div class="am-u-lg-12 am-u-md-12 am-u-sm-12 am-text-center" style="color: #fff">
+										<div class="ownText">
+
+										</div>
+										<h1 class="am-text-center" >新品<br>推荐</h1>
+										<hr style="border: 1px solid #d6d6d6"/>
+										<h2 class="am-text-center" >Sticky Monster<br>移动电源</h2>
+										<button type="button" class="am-btn-sm am-btn" style="border:1px solid #fff;background-color:transparent;margin-top: 10px;">
+											购买
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="clone" aria-hidden="true" style="float: left; display: block; width: 682px;">
+						<div class="storebanner_3">
+							<div class="am-container ownPadding">
+								<div class="am-g ownbackground" style="padding: 20px;">
+									<div class="am-u-lg-12 am-u-md-12 am-u-sm-12 am-text-center" style="color: #fff">
+										<div class="ownText">
+
+										</div>
+										<h1 class="am-text-center" >新品<br>推荐</h1>
+										<hr style="border: 1px solid #d6d6d6"/>
+										<h2 class="am-text-center" >Sticky Monster<br>移动电源</h2>
+										<button type="button" class="am-btn-sm am-btn" style="border:1px solid #fff;background-color:transparent;margin-top: 10px;">
+											购买
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+</div>
+<div class="pic-box">
+	<div class="am-container">
+		<div class="am-g ownmargin">
+			<div class="am-u-lg-4 am-u-md-12 am-u-sm-12" style="padding: 10px;">
+				<img src="img/14-2.png" class="am-img-responsive" style="width: 100%;" >
+				<div class="am-g">
+					<div class="am-u-lg-8 am-u-md-8 am-u-sm-8 am-text-left" style="margin-top: 10px;">
+						<p  style="font-weight: 700">胶囊U盘(8G)Capsule U Disk</p>
+					</div>
+					<div class="am-u-lg-3 am-u-md-3 am-u-sm-3 am-text-right">
+						<button type="button" class="am-right am-btn-md am-btn" style="border:1px solid #000;background-color:transparent;margin-top: 10px;">
+							购买
+						</button>
+					</div>
+					<div class="am-u-lg-8 am-u-md-8 am-u-sm-8 am-text-left" style="margin-top: -10px;float: left;">
+						<p style="font-weight: 100; font-size: small">260/个</p>
+					</div>
+				</div>
+			</div>
+			<div class="am-u-lg-4 am-u-md-12 am-u-sm-12" style="padding: 10px;">
+				<img src="img/14STORE2.png" class="am-img-responsive" style="width: 100%;" >
+				<div class="am-g">
+					<div class="am-u-lg-8 am-u-md-8 am-u-sm-8 am-text-left" style="margin-top: 10px;">
+						<p  style="font-weight: 700">胶囊U盘(8G)Capsule U Disk</p>
+					</div>
+					<div class="am-u-lg-3 am-u-md-3 am-u-sm-3 am-text-right">
+						<button type="button" class="am-right am-btn-md am-btn" style="border:1px solid #000;background-color:transparent;margin-top: 10px;">
+							购买
+						</button>
+					</div>
+					<div class="am-u-lg-8 am-u-md-8 am-u-sm-8 am-text-left" style="margin-top: -10px;float: left;">
+						<p style="font-weight: 100; font-size: small">260/个</p>
+					</div>
+				</div>
+			</div>
+			<div class="am-u-lg-4 am-u-md-12 am-u-sm-12" style="padding: 10px;">
+				<img src="img/14STORE8.png" class="am-img-responsive" style="width: 100%;" >
+				<div class="am-g">
+					<div class="am-u-lg-8 am-u-md-8 am-u-sm-8 am-text-left" style="margin-top: 10px;">
+						<p  style="font-weight: 700">胶囊U盘(8G)Capsule U Disk</p>
+					</div>
+					<div class="am-u-lg-3 am-u-md-3 am-u-sm-3 am-text-right">
+						<button type="button" class="am-right am-btn-md am-btn" style="border:1px solid #000;background-color:transparent;margin-top: 10px;">
+							购买
+						</button>
+					</div>
+					<div class="am-u-lg-8 am-u-md-8 am-u-sm-8 am-text-left" style="margin-top: -10px;float: left;">
+						<p style="font-weight: 100; font-size: small">260/个</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr style="border: 1px solid #d6d6d6"/>
+	</div>
+</div>
+&lt;!&ndash; 2 &ndash;&gt;
+<div class="pic-box">
+	<div class="am-container">
+		<div class="am-g ownmargin">
+			<div class="am-u-lg-4 am-u-md-12 am-u-sm-12" style="padding: 10px;">
+				<img src="img/14STORE12.png" class="am-img-responsive" style="width: 100%;" >
+				<div class="am-g">
+					<div class="am-u-lg-8 am-u-md-8 am-u-sm-8 am-text-left" style="margin-top: 10px;">
+						<p  style="font-weight: 700">胶囊U盘(8G)Capsule U Disk</p>
+					</div>
+					<div class="am-u-lg-3 am-u-md-3 am-u-sm-3 am-text-right">
+						<button type="button" class="am-right am-btn-md am-btn" style="border:1px solid #000;background-color:transparent;margin-top: 10px;">
+							购买
+						</button>
+					</div>
+					<div class="am-u-lg-8 am-u-md-8 am-u-sm-8 am-text-left" style="margin-top: -10px;float: left;">
+						<p style="font-weight: 100; font-size: small">260/个</p>
+					</div>
+				</div>
+			</div>
+			<div class="am-u-lg-4 am-u-md-12 am-u-sm-12" style="padding: 10px;">
+				<img src="img/14STORE11.png" class="am-img-responsive" style="width: 100%;" >
+				<div class="am-g">
+					<div class="am-u-lg-8 am-u-md-8 am-u-sm-8 am-text-left" style="margin-top: 10px;">
+						<p  style="font-weight: 700">胶囊U盘(8G)Capsule U Disk</p>
+					</div>
+					<div class="am-u-lg-3 am-u-md-3 am-u-sm-3 am-text-right">
+						<button type="button" class="am-right am-btn-md am-btn" style="border:1px solid #000;background-color:transparent;margin-top: 10px;">
+							购买
+						</button>
+					</div>
+					<div class="am-u-lg-8 am-u-md-8 am-u-sm-8 am-text-left" style="margin-top: -10px;float: left;">
+						<p style="font-weight: 100; font-size: small">260/个</p>
+					</div>
+				</div>
+			</div>
+			<div class="am-u-lg-4 am-u-md-12 am-u-sm-12" style="padding: 10px;">
+				<img src="img/14STORE13.png" class="am-img-responsive" style="width: 100%;" >
+				<div class="am-g">
+					<div class="am-u-lg-8 am-u-md-8 am-u-sm-8 am-text-left" style="margin-top: 10px;">
+						<p  style="font-weight: 700">胶囊U盘(8G)Capsule U Disk</p>
+					</div>
+					<div class="am-u-lg-3 am-u-md-3 am-u-sm-3 am-text-right">
+						<button type="button" class="am-right am-btn-md am-btn" style="border:1px solid #000;background-color:transparent;margin-top: 10px;">
+							购买
+						</button>
+					</div>
+					<div class="am-u-lg-8 am-u-md-8 am-u-sm-8 am-text-left" style="margin-top: -10px;float: left;">
+						<p style="font-weight: 100; font-size: small">260/个</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr style="border: 1px solid #d6d6d6"/>
+	</div>
+</div>
+&lt;!&ndash; 3 &ndash;&gt;
+<div class="pic-box">
+	<div class="am-container">
+		<div class="am-g">
+			<div class="am-u-lg-4 am-u-md-12 am-u-sm-12" style="padding: 10px;">
+				<img src="img/14STORE6.png" class="am-img-responsive" style="width: 100%;" >
+				<div class="am-g">
+					<div class="am-u-lg-8 am-u-md-8 am-u-sm-8 am-text-left" style="margin-top: 10px;">
+						<p  style="font-weight: 700">胶囊U盘(8G)Capsule U Disk</p>
+					</div>
+					<div class="am-u-lg-3 am-u-md-3 am-u-sm-3 am-text-right">
+						<button type="button" class="am-right am-btn-md am-btn" style="border:1px solid #000;background-color:transparent;margin-top: 10px;">
+							购买
+						</button>
+					</div>
+					<div class="am-u-lg-8 am-u-md-8 am-u-sm-8 am-text-left" style="margin-top: -10px;float: left;">
+						<p style="font-weight: 100; font-size: small">260/个</p>
+					</div>
+				</div>
+			</div>
+			<div class="am-u-lg-4 am-u-md-12 am-u-sm-12" style="padding: 10px;">
+				<img src="img/14STORE5.png" class="am-img-responsive" style="width: 100%;" >
+				<div class="am-g">
+					<div class="am-u-lg-8 am-u-md-8 am-u-sm-8 am-text-left" style="margin-top: 10px;">
+						<p  style="font-weight: 700">胶囊U盘(8G)Capsule U Disk</p>
+					</div>
+					<div class="am-u-lg-3 am-u-md-3 am-u-sm-3 am-text-right">
+						<button type="button" class="am-right am-btn-md am-btn" style="border:1px solid #000;background-color:transparent;margin-top: 10px;">
+							购买
+						</button>
+					</div>
+					<div class="am-u-lg-8 am-u-md-8 am-u-sm-8 am-text-left" style="margin-top: -10px;float: left;">
+						<p style="font-weight: 100; font-size: small">260/个</p>
+					</div>
+				</div>
+			</div>
+			<div class="am-u-lg-4 am-u-md-12 am-u-sm-12" style="padding: 10px;">
+				<img src="img/14STORE7.png" class="am-img-responsive" style="width: 100%;" >
+				<div class="am-g">
+					<div class="am-u-lg-8 am-u-md-8 am-u-sm-8 am-text-left" style="margin-top: 10px;">
+						<p  style="font-weight: 700">胶囊U盘(8G)Capsule U Disk</p>
+					</div>
+					<div class="am-u-lg-3 am-u-md-3 am-u-sm-3 am-text-right">
+						<button type="button" class="am-right am-btn-md am-btn" style="border:1px solid #000;background-color:transparent;margin-top: 10px;">
+							购买
+						</button>
+					</div>
+					<div class="am-u-lg-8 am-u-md-8 am-u-sm-8 am-text-left" style="margin-top: -10px;float: left;">
+						<p style="font-weight: 100; font-size: small">260/个</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr style="border: 1px solid #d6d6d6"/>
+	</div>
+</div>
+&lt;!&ndash; 4 &ndash;&gt;
+<div class="pic-box">
+	<div class="am-container">
+		<div class="am-g">
+			<div class="am-u-lg-4 am-u-md-12 am-u-sm-12" style="padding: 10px;">
+				<img src="img/14STORE9.png" class="am-img-responsive" style="width: 100%;" >
+				<div class="am-g">
+					<div class="am-u-lg-8 am-u-md-8 am-u-sm-8 am-text-left" style="margin-top: 10px;">
+						<p  style="font-weight: 700">胶囊U盘(8G)Capsule U Disk</p>
+					</div>
+					<div class="am-u-lg-3 am-u-md-3 am-u-sm-3 am-text-right">
+						<button type="button" class="am-right am-btn-md am-btn" style="border:1px solid #000;background-color:transparent;margin-top: 10px;">
+							购买
+						</button>
+					</div>
+					<div class="am-u-lg-8 am-u-md-8 am-u-sm-8 am-text-left" style="margin-top: -10px;float: left;">
+						<p style="font-weight: 100; font-size: small">260/个</p>
+					</div>
+				</div>
+			</div>
+			<div class="am-u-lg-4 am-u-md-12 am-u-sm-12" style="padding: 10px;">
+				<img src="img/14STORE8.png" class="am-img-responsive" style="width: 100%;" >
+				<div class="am-g">
+					<div class="am-u-lg-8 am-u-md-8 am-u-sm-8 am-text-left" style="margin-top: 10px;">
+						<p  style="font-weight: 700">胶囊U盘(8G)Capsule U Disk</p>
+					</div>
+					<div class="am-u-lg-3 am-u-md-3 am-u-sm-3 am-text-right">
+						<button type="button" class="am-right am-btn-md am-btn" style="border:1px solid #000;background-color:transparent;margin-top: 10px;">
+							购买
+						</button>
+					</div>
+					<div class="am-u-lg-8 am-u-md-8 am-u-sm-8 am-text-left" style="margin-top: -10px;float: left;">
+						<p style="font-weight: 100; font-size: small">260/个</p>
+					</div>
+				</div>
+			</div>
+			<div class="am-u-lg-4 am-u-md-12 am-u-sm-12" style="padding: 10px;">
+				<img src="img/14STORE10.png" class="am-img-responsive" style="width: 100%;" >
+				<div class="am-g">
+					<div class="am-u-lg-8 am-u-md-8 am-u-sm-8 am-text-left" style="margin-top: 10px;">
+						<p  style="font-weight: 700">胶囊U盘(8G)Capsule U Disk</p>
+					</div>
+					<div class="am-u-lg-3 am-u-md-3 am-u-sm-3 am-text-right">
+						<button type="button" class="am-right am-btn-md am-btn" style="border:1px solid #000;background-color:transparent;margin-top: 10px;">
+							购买
+						</button>
+					</div>
+					<div class="am-u-lg-8 am-u-md-8 am-u-sm-8 am-text-left" style="margin-top: -10px;float: left;">
+						<p style="font-weight: 100; font-size: small">260/个</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<footer>
+	<div class="pic-box">
+		<div class="am-container">
+			<hr style="border: 1px solid #d6d6d6"/>
+			<div class="am-g">
+				<div class="am-u-lg-8 am-u-md-8 am-u-sm-12" style="border-right: 1px solid #d6d6d6">
+					<p>北京市朝阳区朝阳公园路6号蓝色港湾国际商区14号楼3层</p>
+					<p>3rd Floor,Building 14,No.6 Chaoyang Road, Chaoyang District,Beijing,China</p>
+				</div>
+				<div class="am-u-lg-4 am-u-md-4 am-u-sm-12">
+					<div class="am-u-lg-6 am-u-md-12 am-u-sm-6">
+						<p>010-59056678</p>
+						<p>lnfo@yangmuseum.org</p>
+					</div>
+					<div class="am-u-lg-6 am-u-md-12 am-u-sm-6 am-text-right fonticonStyle">
+						<span class="iconfont icon-facebook1"></span>
+						<span class="iconfont icon-QQ" ></span>
+						<span class="iconfont icon-weibo" ></span>
+						<span class="iconfont icon-wechat"></span>
+					</div>
+				</div>
+			</div>
+			<hr style="border: 1px solid #d6d6d6"/>
+		</div>
+		<div class="am-container">
+			<div class="am-g">
+				<div class="am-u-lg-8 am-u-md-8 am-u-sm-12">
+					<p>© 2016 YAM ALL Rights Reserved.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<div data-am-widget="gotop" class="top am-gotop am-gotop-fixed">
+	<a href="#top">
+		<i class="am-gotop-icon am-icon-chevron-up"></i>
+	</a>
+</div>
+
+&lt;!&ndash;[if (gte IE 9)|!(IE)]>&lt;!&ndash;dash;&gt;
+<script src="js/jquery-1.12.4.js"></script>
+&lt;!&ndash;<![endif]
+[if lte IE 8 ]>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]&ndash;&gt;
+
+<script src="js/amazeui.min.js"></script>
+<script>
+    $(document).ready(function(){
         //轮播初始化
         $('.am-slider').flexslider();
     })
@@ -433,4 +964,4 @@
 
 </body>
 
-</html>
+</html>-->
